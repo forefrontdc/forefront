@@ -26,6 +26,7 @@ gulp.task('watch', ['build'], () => {
   gulp.watch('src/static/js/**/*.js', ['webpack'])
   gulp.watch('src/static/css/**/*.css', ['css'])
   gulp.watch('src/templates/**/*.html', ['nunjucks'])
+  gulp.watch('src/templates/event.html', ['events'])
   gulp.watch(EXTRAS_GLOB, ['extras'])
 })
 

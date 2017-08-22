@@ -1,7 +1,7 @@
-@import 'components/Foo';
-@import '_help'; /* remove this helpfile once not needed anymore */
-
 @import 'suitcss';
+
+@import 'components/Main';
+@import '_help'; /* remove this helpfile once not needed anymore */
 
 /* custom media queries */
 @custom-media --sm-viewport (min-width: 0);
@@ -17,7 +17,7 @@
     --font-family: 'Helvetica Neue', Arial, sans-serif;
     --font-size: 1rem;
 
-    --primary-color: #43d8f8;
+    --primary-color: #576ab0;
     --secondary-color: #f00;
 }
 

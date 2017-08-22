@@ -24,9 +24,6 @@ const config = {
     ]
   },
   plugins: [
-    new webpack.DefinePlugin({
-      SECRET_MESSAGE: JSON.stringify(projectConfig.get('SECRET_MESSAGE'))
-    }),
     new webpack.optimize.UglifyJsPlugin({
       sourceMap: true
     })
