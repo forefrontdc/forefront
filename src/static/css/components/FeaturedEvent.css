@@ -1,0 +1,20 @@
+.FeaturedEvent {
+    position: relative;
+    border: 3px solid var(--purple);
+    background-color: var(--pale-yellow);
+    padding: 1rem;
+    margin-top: -4.5rem;
+
+    @media(--md-viewport) {
+        padding: 2rem;
+        margin-top: -5rem;
+    }
+}
+
+.FeaturedEvent-label {
+    position: absolute;
+    top: -12px;
+    padding: 0 1rem;
+    text-transform: uppercase;
+    background-color: var(--pale-yellow);
+}

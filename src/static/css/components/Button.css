@@ -1,0 +1,11 @@
+.Button {
+    background-color: var(--dark-purple);
+    color: var(--pale-yellow);
+    font-family: var(--font-times);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+}

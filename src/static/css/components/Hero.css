@@ -1,0 +1,15 @@
+.Hero {
+    margin: 1rem;
+    padding: 1rem;
+    padding-bottom: 5rem;
+    border: 3px solid var(--purple);
+
+    @media(--md-viewport) {
+        padding: 6rem 0rem;
+        padding-bottom: 10rem;
+    }
+}
+
+.Hero-logo {
+    margin-bottom: 1rem;
+}

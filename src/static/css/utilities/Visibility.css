@@ -1,0 +1,55 @@
+.u-show-for-small {
+    display: block;
+}
+
+.u-show-for-small-only {
+    display: none;
+
+    @media(--sm-only-viewport) {
+        display: block;
+    }
+}
+
+.u-hide-for-small-only {
+    display: block;
+
+    @media(--sm-only-viewport) {
+        display: none;
+    }
+}
+
+.u-show-for-medium {
+    display: none;
+
+    @media(--md-viewport) {
+        display: block;
+    }
+}
+
+.u-show-for-medium-only {
+    display: none;
+
+    @media(--md-only-viewport) {
+        display: block;
+    }
+}
+
+.u-show-for-large {
+    display: none;
+
+    @media(--lg-viewport) {
+        display: block;
+    }
+}
+
+.u-visibilityHidden {
+    visibility: hidden;
+}
+
+.u-show-for-sr {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    position: absolute !important;
+}

@@ -1,6 +1,11 @@
 @import 'suitcss';
 
-@import 'components/Main';
+@import 'components/Button';
+@import 'components/FeaturedEvent';
+@import 'components/Hero';
+
+@import 'utilities/Typography';
+
 @import '_help'; /* remove this helpfile once not needed anymore */
 
 /* custom media queries */
@@ -14,19 +19,32 @@
     --Grid-gutter-size: 10px; /* suitcss property overwrite */
     --Grid-max-width: 1200px; /* custom property */
 
-    --font-family: 'Helvetica Neue', Arial, sans-serif;
+    --font-times: 'Times New Roman', Times, serif;
+    --font-courier: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+
+    --font-family: var(--font-courier);
     --font-size: 1rem;
 
-    --primary-color: #576ab0;
-    --secondary-color: #f00;
+    --white: #FFFFFF;
+    --pale-yellow: #FFFDEB;
+    --purple: #576AB0;
+    --dark-purple: #4554a1;
 }
 
 body {
     font-family: var(--font-family);
     font-size: var(--font-size);
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: var(--pale-yellow);
 }
 
 .Grid {
     margin: 0 auto;
+    padding: 0 1rem;
     max-width: var(--Grid-max-width);
+
+    .Grid {
+        padding: 0;
+    }
 }

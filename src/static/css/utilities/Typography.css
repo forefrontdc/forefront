@@ -4,5 +4,49 @@ h3,
 h4,
 h5,
 h6 {
-    color: var(--primary-color);
+    color: var(--purple);
+    font-family: var(--font-times);
+    margin-bottom: 1rem;
+}
+
+h1 {
+    @media(--md-viewport) {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+}
+
+h2 {
+    @media(--md-viewport) {
+        font-size: 2rem;
+    }
+}
+
+p {
+    font-family: var(--font-courier);
+    font-size: 0.85rem;
+    color: var(--purple);
+    letter-spacing: 0;
+    font-weight: 600;
+    line-height: 1.7;
+}
+
+.u-strikethrough {
+    position: relative;
+
+    &::after {
+        content: '';
+        width: 105%;
+        height: 4px;
+        background-color: var(--dark-purple);
+        position: absolute;
+        top: 55%;
+        left: -5px;
+        transform: translateY(-50%);
+        z-index: 1;
+    }
+}
+
+.u-center {
+    text-align: center;
 }
