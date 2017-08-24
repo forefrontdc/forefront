@@ -1,0 +1,7 @@
+.Section {
+    padding: 4rem 0;
+}
+
+.Section--secondary {
+    background-color: var(--primary-color);
+}

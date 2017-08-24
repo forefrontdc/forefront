@@ -1,0 +1,10 @@
+.Link--primary {
+    color: var(--primary-color);
+    font-family: var(--font-times);
+    font-size: 3rem;
+    font-style: italic;
+}
+
+.Link--secondary {
+    color: var(--primary-color);
+}

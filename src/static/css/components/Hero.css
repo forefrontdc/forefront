@@ -2,7 +2,7 @@
     margin: 1rem;
     padding: 1rem;
     padding-bottom: 5rem;
-    border: 3px solid var(--purple);
+    border: 3px solid var(--primary-color);
 
     @media(--md-viewport) {
         padding: 6rem 0rem;

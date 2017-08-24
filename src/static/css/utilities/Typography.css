@@ -4,7 +4,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: var(--purple);
+    color: var(--primary-color);
     font-family: var(--font-times);
     margin-bottom: 1rem;
 }
@@ -18,16 +18,15 @@ h1 {
 
 h2 {
     @media(--md-viewport) {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 }
 
 p {
     font-family: var(--font-courier);
     font-size: 0.85rem;
-    color: var(--purple);
+    color: var(--primary-color);
     letter-spacing: 0;
-    font-weight: 600;
     line-height: 1.7;
 }
 
@@ -47,6 +46,13 @@ p {
     }
 }
 
-.u-center {
-    text-align: center;
+.title {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: var(--white);
+}
+
+.u-white {
+    color: var(--white);
 }

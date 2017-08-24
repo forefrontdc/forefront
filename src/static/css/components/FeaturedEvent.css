@@ -1,7 +1,7 @@
 .FeaturedEvent {
     position: relative;
     border: 3px solid var(--purple);
-    background-color: var(--pale-yellow);
+    background-color: var(--secondary-color);
     padding: 1rem;
     margin-top: -4.5rem;
 
