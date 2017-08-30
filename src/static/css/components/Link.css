@@ -7,4 +7,7 @@
 
 .Link--secondary {
     color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    text-align: right;
 }

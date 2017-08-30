@@ -13,6 +13,7 @@ h1 {
     @media(--md-viewport) {
         font-size: 3rem;
         margin-bottom: 1rem;
+        line-height: 1.2;
     }
 }
 
@@ -48,8 +49,8 @@ p {
 
 .title {
     text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 3px;
+    font-size: 1rem;
+    letter-spacing: 4px;
     color: var(--white);
 }
 

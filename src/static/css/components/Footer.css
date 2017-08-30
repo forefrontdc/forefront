@@ -1,0 +1,16 @@
+.Footer {
+    border: 3px solid var(--primary-color);
+    margin: 0 1rem 1rem 1rem;
+    padding: 3rem 0;
+}
+
+.Footer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer-logo {
+    
+}

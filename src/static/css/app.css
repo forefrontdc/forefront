@@ -6,6 +6,7 @@
 @import 'components/Link';
 @import 'components/PastEvents';
 @import 'components/Section';
+@import 'components/Footer';
 
 @import 'utilities/Typography';
 
@@ -23,7 +24,7 @@
     --Grid-max-width: 1200px; /* custom property */
 
     --font-times: 'Times New Roman', Times, serif;
-    --font-courier: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    --font-courier: "Courier", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 
     --font-family: var(--font-courier);
     --font-size: 1rem;
@@ -33,7 +34,7 @@
     --purple: #576AB0;
     --dark-purple: #4554a1;
 
-    --primary-color: var(--purple);
+    --primary-color: var(--dark-purple);
     --secondary-color: var(--pale-yellow);
 }
 
