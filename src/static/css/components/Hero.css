@@ -1,10 +1,7 @@
 .Hero {
     margin: 1rem;
     overflow: hidden;
-}
-
-.Hero-header {
-  position: relative;
+    position: relative;
 }
 
 .Hero-logo {
@@ -17,39 +14,6 @@
   font-size: 14px;
   color: #898989;
   line-height: 1.6;
-  border: 2px solid var(--primary-color);
-  padding-bottom: 4rem;
+  border: 3px solid var(--primary-color);
+  padding-bottom: 10rem;
 }
-
-.Triangle-wrapper {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: var(--secondary-color);
-    width: 64px;
-    height: 64px;
-  }
-
-  .Triangle-container {
-    position: relative;
-    height: 62px;
-  }
-
-  .Triangle {
-    width: 0;
-    height: 0;
-    border-top: 64px solid transparent;
-    border-left: 64px solid var(--primary-color);
-    position: absolute;
-  }
-
-  .Triangle-inside {
-    position: absolute;
-    left: 2px;
-    top: 4px;
-    width: 0;
-    height: 0;
-    border-top: 58px solid transparent;
-    border-left: 58px solid var(--secondary-color);
-    z-index: 10;
-  }

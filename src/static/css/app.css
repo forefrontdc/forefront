@@ -1,6 +1,7 @@
 @import 'suitcss';
 
 @import 'components/Button';
+@import 'components/Corner';
 @import 'components/FeaturedEvent';
 @import 'components/Hero';
 @import 'components/Link';
