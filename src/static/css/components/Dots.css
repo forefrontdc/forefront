@@ -1,0 +1,9 @@
+.Dots {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFDEB;
+    background-image: radial-gradient(#4554a1 25%, transparent 25%);
+    background-size: 20px 20px;
+    background-position: center;
+    background-attachment: fixed;
+}

@@ -24,3 +24,31 @@
     border-top: 55px solid transparent;
     border-left: 57px solid var(--secondary-color);
   }
+
+  /* Small Corner */
+  .Corner-wrapper--small {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--secondary-color);
+    width: 35px;
+    height: 35px;
+  }
+
+  .Corner--small {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 36px solid transparent;
+    border-left: 37px solid var(--primary-color);
+  }
+
+  .Corner-inside--small {
+    position: absolute;
+    left: 3px;
+    top: 8px;
+    width: 0;
+    height: 0;
+    border-top: 55px solid transparent;
+    border-left: 57px solid var(--secondary-color);
+  }
