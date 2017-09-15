@@ -39,16 +39,21 @@
 
                     <p class="FeaturedEvent-label">Upcoming_Event</p>
 
+                    {% for event in events.events %}
+                    {% if loop.last %}
                     <div class="FeaturedEvent-content">
-                        <h2>Battle of the Grids: The Masters of Layout Throw Down</h2>
-                        <p class="FeaturedEvent-date">APRIL 6th 2017 @ ISL</p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <h2>{{ event.name }}</h2>
+                        <p class="FeaturedEvent-date">
+                        {{ event.date }} @
+                        {{ event.location }}<br>
                         </p>
+                        <p>{{ event.description }}</p>
                         <div class="u-textCenter">
                             <a href="#" class="Button">Get Tickets</a>
                         </div>
                     </div>
+                    {% endif %}
+                    {% endfor %}
                 </div>
             </div>
         </div>
@@ -59,7 +64,11 @@
             <div class="Grid-cell u-sm-size12of12">
                 <div class="u-textCenter">
                     <h2 class="u-white">Past Events</h2>
-                    Accordion goes here
+                    {% for event in events.events %}
+                        {{ event.name }}
+                        {{ event.date }}
+                        {{ event.location }}<br>
+                    {% endfor %}
                 </div>
             </div>
         </div>
