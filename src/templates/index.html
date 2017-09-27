@@ -49,7 +49,7 @@
                         </p>
                         <p>{{ event.description }}</p>
                         <div class="u-textCenter">
-                            <a href="#" class="Button">Get Tickets</a>
+                            <a href="{{ event.eventbrite }}" class="Button" target="_blank">Get Tickets</a>
                         </div>
                     </div>
                     {% endif %}
@@ -61,13 +61,19 @@
 
     <section class="Section PastEvents">
         <div class="Grid Grid--withGutter Grid--alignCenter">
-            <div class="Grid-cell u-sm-size12of12">
+            <div class="Grid-cell u-sm-size12of12 u-md-size8of12 u-lg-size5of12">
                 <div class="u-textCenter">
-                    <h2 class="u-white">Past Events</h2>
+                    <h2 class="u-white">Past_Events</h2>
+
                     {% for event in events.events %}
-                        {{ event.name }}
-                        {{ event.date }}
-                        {{ event.location }}<br>
+                        <div class="tab">
+                          <input id="tab-{{event.slug}}" type="checkbox" name="tabs">
+                          <label for="tab-{{event.slug}}">{{ event.name }}</label>
+                          <div class="tab-content">
+                            <p>{{ event.date }} | @{{ event.location }}</p>
+                            <p>{{ event.description }}</p>
+                          </div>
+                        </div>
                     {% endfor %}
                 </div>
             </div>
