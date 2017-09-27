@@ -1,8 +1,6 @@
 .FeaturedEvent {
     margin: 1rem;
-    overflow: hidden;
-    position: relative;
-
+    overflow: visible;
     position: relative;
     z-index: 1;
     margin-top: -6rem;
@@ -22,6 +20,7 @@
 .FeaturedEvent-label {
     position: absolute;
     top: -12px;
+    left: 20px;
     padding: 0 1rem;
     font-size: 1rem;
     text-transform: uppercase;
