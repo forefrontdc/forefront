@@ -3,6 +3,7 @@
     font-family: var(--font-times);
     font-size: 3rem;
     font-style: italic;
+    display: block;
 }
 
 .Link--secondary {
@@ -10,4 +11,5 @@
     margin-bottom: 0.5rem;
     text-decoration: none;
     text-align: right;
+    display: block;
 }
