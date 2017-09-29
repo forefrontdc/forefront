@@ -8,8 +8,10 @@ function changeColor() {
     randomColor = Math.floor(Math.random() * color.length)
   }
 
+  console.log(color[randomColor])
+
   localStorage.setItem('lastColorIndex',randomColor)
-  document.getElementsByTagName("body")[0].style.backgroundColor=color[randomColor]
+  document.body.style.setProperty('--primary-color', color[randomColor])
 }
 
 changeColor()

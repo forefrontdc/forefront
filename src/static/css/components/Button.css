@@ -1,5 +1,5 @@
 .Button {
-    background-color: var(--dark-purple);
+    background-color: var(--primary-color);
     color: var(--secondary-color);
     font-family: var(--font-times);
     text-transform: uppercase;

@@ -38,7 +38,7 @@ p {
         content: '';
         width: 105%;
         height: 4px;
-        background-color: var(--dark-purple);
+        background-color: var(--primary-color);
         position: absolute;
         top: 55%;
         left: -5px;
