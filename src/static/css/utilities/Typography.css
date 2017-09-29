@@ -54,6 +54,6 @@ p {
     color: var(--white);
 }
 
-.u-white {
-    color: var(--white);
+.u-light {
+    color: var(--secondary-color);
 }

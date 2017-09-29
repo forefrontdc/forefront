@@ -13,6 +13,7 @@
 @import 'components/Footer';
 
 @import 'utilities/Typography';
+@import 'utilities/Utilities';
 
 @import '_help'; /* remove this helpfile once not needed anymore */
 
