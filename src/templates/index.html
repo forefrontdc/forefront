@@ -64,14 +64,16 @@
                     <h2 class="u-white">Past_Events</h2>
 
                     {% for event in events.events %}
-                        <div class="tab">
-                          <input id="tab-{{event.slug}}" type="checkbox" name="tabs">
-                          <label for="tab-{{event.slug}}">{{ event.name }}</label>
-                          <div class="tab-content">
+                    {% if not loop.last %}
+                        <div class="Accordion">
+                          <input id="Accordion-{{event.slug}}" type="checkbox" name="tabs">
+                          <label for="Accordion-{{event.slug}}">{{ event.name }}</label>
+                          <div class="Accordion-content">
                             <p>{{ event.date }} | @{{ event.location }}</p>
                             <p>{{ event.description }}</p>
                           </div>
                         </div>
+                    {% endif %}
                     {% endfor %}
                 </div>
             </div>

@@ -3,9 +3,9 @@
     color: var(--secondary-color);
     font-family: var(--font-times);
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     font-weight: 600;
     font-size: 0.85rem;
-    padding: 1rem 3rem;
+    padding: 1.25rem 3rem;
     margin-top: 2rem;
 }

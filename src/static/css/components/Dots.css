@@ -1,13 +1,18 @@
 .Dots {
     position: absolute;
-    top: 40px;
-    right: 40px;
+    top: 25px;
+    right: 25px;
     width: 100%;
     height: 100%;
-    background-color: #FFFDEB;
-    background-image: radial-gradient(#4554a1 25%, transparent 25%);
-    background-size: 20px 20px;
+    background-color: var(--secondary-color);
+    background-image: radial-gradient(var(--primary-color) 25%, transparent 25%);
+    background-size: 15px 15px;
     background-position: center;
     border: 3px solid var(--primary-color);
     z-index: -1;
+
+    @media(--md-viewport) {
+        top: 35px;
+        right: 35px;
+    }
 }

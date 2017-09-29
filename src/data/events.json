@@ -6,7 +6,7 @@
         "date": "October 10th, 2017",
         "location": "ISL",
         "speaker": "Pretend Speaker Name",
-        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam eratr sadipscing elitr.",
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam eratr sadipscing elitr. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam eratr sadipscing elitr.",
         "time": "8:00 AM - 10:00 AM",
         "photo": "events/paula.jpg",
         "eventbrite": "https://www.eventbrite.com"
@@ -24,11 +24,11 @@
     },
     {
         "slug": "grid-showdown",
-        "name": "GRID SHOWDOWN MOFOS",
+        "name": "Battle of the Grids: The Masters of Layout Throw Down",
         "date": "October 11th, 2017",
         "location": "ISL",
         "speaker": "Yeeeeeee Son",
-        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam eratr sadipscing elitr.",
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam eratr sadipscing elitr. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam eratr sadipscing elitr. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam eratr sadipscing elitr.",
         "time": "8:00 AM - 10:00 AM",
         "photo": "events/paula.jpg",
         "eventbrite": "https://www.eventbrite.com"

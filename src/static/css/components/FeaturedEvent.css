@@ -10,10 +10,10 @@
 .FeaturedEvent-content {
     border: 3px solid var(--purple);
     background-color: var(--secondary-color);
-    padding: 1rem;
+    padding: 2rem;
 
     @media(--md-viewport) {
-        padding: 2rem;
+        padding: 4rem 6rem 4rem 4rem;
     }
 }
 
@@ -28,5 +28,6 @@
 }
 
 .FeaturedEvent-date {
-    margin-bottom: 1rem;
+    margin: 2rem 0;
+    text-transform: uppercase;
 }

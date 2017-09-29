@@ -47,7 +47,7 @@ body {
     font-size: var(--font-size);
     width: 100vw;
     overflow-x: hidden;
-    background-color: var(--pale-yellow);
+    background-color: var(--secondary-color);
 }
 
 .Grid {
