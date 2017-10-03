@@ -8,8 +8,15 @@
     font-size: 0.85rem;
     padding: 1rem 2rem;
     margin-top: 2rem;
+    border: 3px solid var(--primary-color);
+    transition: all 200ms ease-in-out;
 
     @media(--md-viewport) {
         padding: 1.25rem 3rem;
+    }
+
+    &:hover {
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
     }
 }

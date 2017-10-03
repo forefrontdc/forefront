@@ -44,7 +44,7 @@
                         {{ event.date }} @
                         {{ event.location }}<br>
                         </p>
-                        <p>{{ event.description }}</p>
+                        <p>{{ event.description|safe }}</p>
                         <div class="u-textCenter">
                             <a href="{{ event.eventbrite }}" class="Button" target="_blank">Get Tickets</a>
                         </div>

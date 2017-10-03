@@ -12,6 +12,13 @@
     @media(--md-viewport) {
         margin-top: -6rem;
     }
+
+    &:hover {
+        .Dots {
+            top: 0;
+            right: 0;
+        }
+    }
 }
 
 .FeaturedEvent-content {
