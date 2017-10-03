@@ -12,7 +12,7 @@
         <div class="Grid Grid--withGutter Grid--alignCenter">
             <div class="Grid-cell u-sm-size12of12 u-md-size8of12 u-lg-size6of12">
                 <div class="u-textCenter">
-                    <img src="/static/img/f-logo.png" class="Hero-logo" alt="Forefront Logo">
+                    <a class="Hero-logo" href="/">{% include 'partials/svg/ff-logo.html' %}</a>
                     <h1>A
                         <span class="u-strikethrough">Meetup</span>
                         for Front_End Professionals</h1>
@@ -27,7 +27,7 @@
 
     <section class="Featured">
         <div class="Grid Grid--withGutter Grid--alignCenter">
-            <div class="Grid-cell u-sm-size11of12 u-md-size9of12 u-lg-size7of12">
+            <div class="Grid-cell u-sm-size12of12 u-md-size9of12 u-lg-size7of12">
                 <div class="FeaturedEvent">
                     <div class="Corner-wrapper--small">
                         <div class="Corner--small"></div>
@@ -86,11 +86,12 @@
                 <div class="Grid Grid--withGutter Grid--alignCenter">
                     <div class="Grid-cell u-sm-size12of12 u-md-size5of12">
                         <h2>What is Fore_Front?</h2>
-                        <p>
+                        <p class="Section-paragraph">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
                     </div>
-                    <div class="Grid-cell u-sm-size12of12 u-md-size7of12">
+                    <div class="Grid-cell u-md-size1of12"></div>
+                    <div class="Grid-cell u-sm-size12of12 u-md-size5of12">
                         <div class="Image" alt="">
                             <div class="Image-inner"></div>
                             <div class="Corner-wrapper">
@@ -124,18 +125,17 @@
     <footer class="Footer">
         <div class="Grid Grid--withGutter Grid--alignCenter">
             <div class="Grid-cell u-sm-size12of12 u-md-size4of12">
-                <div class="Footer-item">
-                    <img src="/static/img/f-logo.png" class="Hero-logo" alt="Forefront Logo">
-                    {% include 'partials/svg/ff-logo.html' %}
+                <div class="Footer-item Footer-item--first">
+                    <a class="Footer-logo" href="/">{% include 'partials/svg/ff-logo.html' %}</a>
                 </div>
             </div>
             <div class="Grid-cell u-sm-size12of12 u-md-size4of12">
                 <div class="Footer-item">
-                    <img src="/static/img/isl-logo.png" style="width:100px;">
+                    <a class="Footer-logo" href="/">{% include 'partials/svg/isl-logo.html' %}</a>
                 </div>
             </div>
             <div class="Grid-cell u-sm-size12of12 u-md-size4of12">
-                <div class="Footer-item">
+                <div class="Footer-item Footer-item--last">
                     <a href="#" class="Link--secondary">Instagram</a>
                     <a href="#" class="Link--secondary">Facebook</a>
                     <a href="#" class="Link--secondary">Twitter</a>

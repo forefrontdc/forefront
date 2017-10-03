@@ -6,6 +6,11 @@
 
 .Hero-logo {
     margin-bottom: 1rem;
+
+    svg {
+        fill: var(--primary-color);
+        animation: floatLogo 4s infinite;
+    }
 }
 
 .Hero-content {
@@ -16,4 +21,19 @@
   line-height: 1.6;
   border: 3px solid var(--primary-color);
   padding-bottom: 10rem;
+}
+
+@keyframes floatLogo {
+  0% {
+    transform: translateY(-5px);
+  }
+
+  50% {
+    transform: translateY(5px);
+
+  }
+
+  100% {
+    transform: translateY(-5px);
+  }
 }

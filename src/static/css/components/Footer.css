@@ -9,8 +9,29 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 1rem 0;
+
+    @media(--md-viewport) {
+        margin: 0;
+    }
+}
+
+.Footer-item--first {
+    @media(--md-viewport) {
+        align-items: baseline;
+    }
+}
+
+.Footer-item--last {
+    @media(--md-viewport) {
+        align-items: flex-end;
+    }
 }
 
 .Footer-logo {
-    
+    margin-bottom: 1rem;
+
+    svg {
+        fill: var(--primary-color);
+    }
 }

@@ -25,10 +25,14 @@ h2 {
 
 p {
     font-family: var(--font-courier);
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     color: var(--primary-color);
     letter-spacing: 0;
     line-height: 1.8;
+
+    @media(--md-viewport) {
+        font-size: 0.85rem;
+    }
 }
 
 .u-strikethrough {

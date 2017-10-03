@@ -1,16 +1,23 @@
+.Featured {
+    margin-left: 2rem;
+}
+
 .FeaturedEvent {
     margin: 1rem;
     overflow: visible;
     position: relative;
     z-index: 1;
-    margin-top: -6rem;
+    margin-top: -8rem;
 
+    @media(--md-viewport) {
+        margin-top: -6rem;
+    }
 }
 
 .FeaturedEvent-content {
     border: 3px solid var(--primary-color);
     background-color: var(--secondary-color);
-    padding: 2rem;
+    padding: 1.5rem;
 
     @media(--md-viewport) {
         padding: 4rem 6rem 4rem 4rem;
@@ -28,6 +35,10 @@
 }
 
 .FeaturedEvent-date {
-    margin: 2rem 0;
+    margin: 1rem 0;
     text-transform: uppercase;
+
+    @media(--md-viewport) {
+         margin: 2rem 0;
+    }
 }

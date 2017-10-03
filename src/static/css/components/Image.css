@@ -1,11 +1,18 @@
 .Image {
     background-image: url('/static/img/cat.jpg');
-    width: 300px;
-    height: 300px;
+    width: 275px;
+    height: 275px;
     background-color: var(--primary-color);
     background-blend-mode: luminosity;
     overflow: hidden;
     position: relative;
+    margin-top: 2rem;
+
+    @media(--md-viewport) {
+        width: 250px;
+        height: 300px;
+        margin-top: 0;
+    }
 }
 
 .Image-inner {
@@ -15,6 +22,11 @@
 }
 
 .Image--right {
-    margin-left: 100px;
-    margin-top: -100px;
+    margin-left: 75px;
+    margin-top: -75px;
+
+    @media(--md-viewport) {
+        margin-left: 100px;
+        margin-top: -100px;
+    }
 }

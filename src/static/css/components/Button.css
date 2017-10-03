@@ -6,6 +6,10 @@
     letter-spacing: 5px;
     font-weight: 600;
     font-size: 0.85rem;
-    padding: 1.25rem 3rem;
+    padding: 1rem 2rem;
     margin-top: 2rem;
+
+    @media(--md-viewport) {
+        padding: 1.25rem 3rem;
+    }
 }

@@ -25,3 +25,7 @@
         border-color: var(--primary-color) var(--secondary-color);
     }
 }
+
+.Section-paragraph {
+    width: 85%;
+}
