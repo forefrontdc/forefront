@@ -1,6 +1,7 @@
 .Image {
     background-image: url('/static/img/cat.jpg');
-    width: 275px;
+    width: 70%;
+    max-width: 250px;
     height: 275px;
     background-color: var(--primary-color);
     background-blend-mode: luminosity;
@@ -9,6 +10,11 @@
     margin-top: 2rem;
 
     @media(--md-viewport) {
+        width: 225px;
+        height: 275px;
+        margin-top: 0;
+    }
+    @media(--lg-viewport) {
         width: 250px;
         height: 300px;
         margin-top: 0;

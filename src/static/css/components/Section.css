@@ -27,5 +27,9 @@
 }
 
 .Section-paragraph {
-    width: 85%;
+    width: 100%;
+
+    @media(--md-viewport) {
+        width: 85%;
+    }
 }
