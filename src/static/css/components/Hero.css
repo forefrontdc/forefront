@@ -13,6 +13,27 @@
     }
 }
 
+.Hero-logotype {
+  position: absolute;
+  padding: 0.5rem 1rem;
+
+  @media(--md-viewport) {
+    padding: 1rem;
+  }
+
+  svg {
+    width: 3rem;
+
+    g {
+      fill: var(--primary-color);
+    }
+
+    @media(--md-viewport) {
+      width: 4rem;
+    }
+  }
+}
+
 .Hero-content {
   background-color: var(--secondary-color);
   padding: 2rem;

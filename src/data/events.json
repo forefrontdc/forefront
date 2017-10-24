@@ -32,6 +32,17 @@
         "time": "8:00 AM - 10:00 AM",
         "photo": "events/paula.jpg",
         "eventbrite": "https://www.eventbrite.com"
+    },
+    {
+        "slug": "looking-for-speakers",
+        "name": "We’re Looking For Rockstar Speakers",
+        "date": "TBD",
+        "location": "ISL",
+        "speaker": "You!",
+        "description": "Are you at the forefront of front end technologies? Are you a lover of Progressive Web Apps? Does CSS hold no secrets for you? Is accessibility a driving force of your coding practices? Is the user always right? Do non-performant websites keep you up at night? Share your knowledge with our community of front end developers. \nFore_Front is looking for rockstar front end developers from our community to speak at our upcoming events. Submit a talk proposal or workshop idea. Sample topics Include: Interactive design, accessibility, performance, UX, responsive development, cross-browser and compatibility, prototyping, teamwork and communication, cross-functional teams",
+        "time": "8:00 AM - 10:00 AM.",
+        "photo": "events/paula.jpg",
+        "eventbrite": "https://www.eventbrite.com"
     }
   ]
 }
