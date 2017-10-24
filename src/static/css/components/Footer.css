@@ -30,8 +30,14 @@
 
 .Footer-logo {
     margin-bottom: 1rem;
+    transition: transform 300ms ease;
 
     svg {
         fill: var(--primary-color);
+    }
+
+    &:hover {
+        transform: translateY(-5px);
+        cursor: pointer;
     }
 }

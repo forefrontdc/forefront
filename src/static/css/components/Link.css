@@ -10,6 +10,31 @@
     color: var(--primary-color);
     margin-bottom: 0.5rem;
     text-decoration: none;
-    text-align: right;
-    display: block;
+
+    position: relative;
+    display: inline-block;
+    padding-bottom: 8px;
+    overflow: hidden;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 3px;
+        background-color: var(--primary-color);
+        overflow: hidden;
+        transform: translateX(-100%);
+        transition: transform 0.5s ease;
+        cursor: pointer;
+    }
+
+    &:hover::before {
+        transform: translateX(0);
+    }
 }
