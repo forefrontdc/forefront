@@ -54,10 +54,16 @@ p {
 .title {
     text-transform: uppercase;
     font-size: 1rem;
-    letter-spacing: 4px;
+    letter-spacing: 6px;
     color: var(--white);
 }
 
 .u-light {
     color: var(--secondary-color);
+    border-bottom-color: var(--secondary-color);
+
+    &:hover {
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+    }
 }

@@ -3,7 +3,16 @@
     font-family: var(--font-times);
     font-size: 3rem;
     font-style: italic;
-    display: block;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 3px solid var(--primary-color);
+    padding: 0.75rem;
+    transition: all 250ms ease-in-out;
+
+    &:hover {
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+    }
 }
 
 .Link--secondary {
