@@ -60,10 +60,4 @@ p {
 
 .u-light {
     color: var(--secondary-color);
-    border-bottom-color: var(--secondary-color);
-
-    &:hover {
-        background-color: var(--secondary-color);
-        color: var(--primary-color);
-    }
 }

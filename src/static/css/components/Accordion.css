@@ -34,10 +34,15 @@ label {
   background: var(--primary-color);
   color: var(--white);
   transition: max-height .35s;
+  margin-bottom: 1rem;
 
   p {
     color: var(--white);
     text-align: left;
+  }
+
+  @media(--md-viewport) {
+    width: 80%;
   }
 }
 

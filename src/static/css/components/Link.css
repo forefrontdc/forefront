@@ -15,6 +15,16 @@
     }
 }
 
+.Link--primary-light {
+    border-bottom-color: var(--secondary-color);
+    color: var(--secondary-color);
+
+    &:hover {
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+    }
+}
+
 .Link--secondary {
     color: var(--primary-color);
     margin-bottom: 0.5rem;
