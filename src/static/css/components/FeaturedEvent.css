@@ -27,7 +27,7 @@
     padding: 1.5rem;
 
     @media(--md-viewport) {
-        padding: 4rem 6rem 4rem 4rem;
+        padding: 4rem;
     }
 }
 
@@ -38,6 +38,7 @@
     padding: 0 1rem;
     font-size: 1rem;
     text-transform: uppercase;
+    letter-spacing: 6px;
     background-color: var(--secondary-color);
 }
 

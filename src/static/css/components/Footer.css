@@ -33,7 +33,9 @@
     transition: transform 300ms ease;
 
     svg {
-        fill: var(--primary-color);
+        g{
+            fill: var(--primary-color);
+        }
     }
 
     &:hover {

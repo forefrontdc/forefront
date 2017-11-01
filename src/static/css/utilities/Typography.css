@@ -25,10 +25,10 @@ h2 {
 
 p {
     font-family: var(--font-courier);
-    font-size: 0.75rem;
+    font-size: 1rem;
     color: var(--primary-color);
-    letter-spacing: 0;
-    line-height: 1.8;
+    letter-spacing: 1px;
+    line-height: 2;
 
     @media(--md-viewport) {
         font-size: 0.85rem;
@@ -55,7 +55,7 @@ p {
     text-transform: uppercase;
     font-size: 1rem;
     letter-spacing: 6px;
-    color: var(--white);
+    color: var(--secondary-color);
 }
 
 .u-light {

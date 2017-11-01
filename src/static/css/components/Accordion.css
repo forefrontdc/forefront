@@ -2,7 +2,7 @@
   position: relative;
   margin-bottom: 1px;
   width: 100%;
-  color: var(--white);
+  color: var(--secondary-color);
   overflow: hidden;
 }
 
@@ -16,12 +16,14 @@ label {
   text-align: left;
   position: relative;
   display: block;
-  padding: 0 0 0 1em;
   background: var(--primary-color);
   font-weight: bold;
-  line-height: 3;
+  line-height: 1.5;
+  font-size: 18px;
+  padding-bottom: 1rem;
+  padding-right: 5rem;
   cursor: pointer;
-  border-bottom: 1px solid var(--white);
+  border-bottom: 1px solid var(--secondary-color);
 }
 
 .blue label {
@@ -32,12 +34,12 @@ label {
   max-height: 0;
   overflow: hidden;
   background: var(--primary-color);
-  color: var(--white);
+  color: var(--secondary-color);
   transition: max-height .35s;
   margin-bottom: 1rem;
 
   p {
-    color: var(--white);
+    color: var(--secondary-color);
     text-align: left;
   }
 
@@ -62,7 +64,7 @@ input:checked ~ .Accordion-content {
 label::after {
   position: absolute;
   right: 0;
-  top: 0;
+  top: -1rem;
   display: block;
   width: 3rem;
   height: 3rem;

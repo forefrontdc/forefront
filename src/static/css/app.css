@@ -29,7 +29,7 @@
     --Grid-max-width: 1200px; /* custom property */
 
     --font-times: 'Times New Roman', Times, serif;
-    --font-courier: "Courier", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    --font-courier: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 
     --font-family: var(--font-courier);
     --font-size: 1rem;

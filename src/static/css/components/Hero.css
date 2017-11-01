@@ -8,7 +8,10 @@
     margin-bottom: 1rem;
 
     svg {
+
+      g{
         fill: var(--primary-color);
+      }
         animation: floatLogo 4s infinite;
     }
 }
@@ -18,7 +21,7 @@
   padding: 0.5rem 1rem;
 
   @media(--md-viewport) {
-    padding: 1rem;
+    padding: 1.5rem 1.5rem 1.5rem 1.7rem;
   }
 
   svg {
