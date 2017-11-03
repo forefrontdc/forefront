@@ -1,15 +1,46 @@
-const color = ['#CC99FF', '#FF99CC', '#FF9999', '#FFCC99']
+const colorList = [
+  {
+    color1: '#FEFFD3',
+    color2: '#E56258'
+  },
+  {
+    color1: '#E56258',
+    color2: '#FEFFD3'
+  },
+  {
+    color1: '#32287E',
+    color2: '#F7F9FF'
+  },
+  {
+    color1: '#F7F9FF',
+    color2: '#32287E'
+  },
+  {
+    color1: '#00ADA2',
+    color2: '#E1E7F2'
+  },
+  {
+    color1: '#343434',
+    color2: '#FFFFFF'
+  },
+  {
+    color1: '#FFFFFF',
+    color2: '#343434'
+  }
+]
 
 function changeColor() {
-  const lastColorIndex = localStorage.getItem('lastColorIndex') || -1
+  const lastColor = localStorage.getItem('lastColor') || -1
   let randomColor = -1
 
-  while(lastColorIndex == randomColor || randomColor === -1) {
-    randomColor = Math.floor(Math.random() * color.length)
+  while(lastColor == randomColor || randomColor === -1) {
+    randomColor = Math.floor(Math.random() * colorList.length)
   }
 
-  localStorage.setItem('lastColorIndex',randomColor)
-  document.body.style.setProperty('--primary-color', color[randomColor])
+  localStorage.setItem('lastColor', randomColor)
+
+  document.body.style.setProperty('--primary-color', colorList[randomColor].color1)
+  document.body.style.setProperty('--secondary-color', colorList[randomColor].color2)
 }
 
 changeColor()
