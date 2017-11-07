@@ -44,3 +44,11 @@ function changeColor() {
 }
 
 changeColor()
+
+window.onload = function(e){
+  const btn = document.getElementById('colorpicker')
+  console.log(btn)
+  btn.addEventListener('click', function(){
+    changeColor()
+  })
+}

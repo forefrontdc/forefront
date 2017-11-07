@@ -25,14 +25,10 @@ h2 {
 
 p {
     font-family: var(--font-courier);
-    font-size: 1rem;
+    font-size: 0.85rem;
     color: var(--primary-color);
     letter-spacing: 1px;
     line-height: 2;
-
-    @media(--md-viewport) {
-        font-size: 0.85rem;
-    }
 }
 
 .u-strikethrough {
@@ -45,7 +41,7 @@ p {
         background-color: var(--primary-color);
         position: absolute;
         top: 55%;
-        left: -5px;
+        left: -3px;
         transform: translateY(-50%);
         z-index: 1;
     }

@@ -6,17 +6,22 @@
     <div class="Hero-logotype">
         {% include 'partials/svg/ff-logo-type.html' %}
     </div>
+    <div class="Hero-colorpicker">
+        <a href="#">
+            {% include 'partials/svg/color-picker.html' %}
+        </a>
+    </div>
     <div class="Corner-wrapper">
         <div class="Corner"></div>
         <div class="Corner-inside"></div>
     </div>
 
     <div class="Hero-content">
-        <div class="Grid Grid--withGutter Grid--alignCenter">
-            <div class="Grid-cell u-sm-size12of12 u-md-size8of12 u-lg-size6of12">
+        <div class="Grid Grid--withGutter Grid--alignMiddle">
+            <div class="Grid-cell Grid-cell--center u-sm-size12of12 u-md-size10of12 u-lg-size8of12">
                 <div class="u-textCenter">
                     <a class="Hero-logo" href="/">{% include 'partials/svg/ff-logo.html' %}</a>
-                    <h1>A
+                    <h1 class="u-mt2">A
                         <span class="u-strikethrough">Meetup</span>
                         for Front_End Professionals</h1>
                     <p>

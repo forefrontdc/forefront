@@ -1,7 +1,7 @@
 .Footer {
     border: 3px solid var(--primary-color);
     margin: 0 1rem 1rem 1rem;
-    padding: 3rem 0;
+    padding: 3rem 2rem 2rem 2rem;
 }
 
 .Footer-item {
@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: center;
     margin: 1rem 0;
+    height: 100%;
 
     @media(--md-viewport) {
         margin: 0;
@@ -33,9 +34,7 @@
     transition: transform 300ms ease;
 
     svg {
-        g{
-            fill: var(--primary-color);
-        }
+        fill: var(--primary-color);
     }
 
     &:hover {

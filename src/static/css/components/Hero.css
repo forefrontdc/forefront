@@ -37,6 +37,26 @@
   }
 }
 
+.Hero-colorpicker {
+  position: absolute;
+  right: 18px;
+  top: 35px;
+  z-index: 1000;
+
+  @media(--md-viewport) {
+    right: 12px;
+  }
+
+  svg {
+    width: 3rem;
+    fill: var(--primary-color);
+
+    @media(--md-viewport) {
+      width: 4rem;
+    }
+  }
+}
+
 .Hero-content {
   background-color: var(--secondary-color);
   padding: 2rem;
@@ -44,7 +64,9 @@
   color: #898989;
   line-height: 1.6;
   border: 3px solid var(--primary-color);
-  padding-bottom: 10rem;
+  display: flex;
+  height: 86vh;
+  min-height: 650px;
 }
 
 @keyframes floatLogo {
