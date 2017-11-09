@@ -7,13 +7,20 @@
     overflow: visible;
     position: relative;
     z-index: 1;
-    margin-top: calc(-100vw/12);
+    margin-top: calc(-100vw/7);
 
     &:hover {
         .Dots {
             top: 0;
             right: 0;
         }
+    }
+
+    @media(--md-viewport) {
+        margin-top: calc(-100vw/8);
+    }
+    @media(--lg-viewport) {
+        margin-top: calc(-100vw/12);
     }
 }
 
