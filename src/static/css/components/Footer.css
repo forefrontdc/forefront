@@ -34,11 +34,19 @@
     transition: transform 300ms ease;
 
     svg {
-        fill: var(--primary-color);
+        g {
+            fill: var(--primary-color);
+        }
     }
 
     &:hover {
         transform: translateY(-5px);
         cursor: pointer;
+    }
+}
+
+.Footer-logo--isl {
+    svg {
+        fill: var(--primary-color);
     }
 }

@@ -8,11 +8,10 @@
     margin-bottom: 1rem;
 
     svg {
-
-      g{
+      animation: floatLogo 4s infinite;
+      g {
         fill: var(--primary-color);
       }
-        animation: floatLogo 4s infinite;
     }
 }
 
