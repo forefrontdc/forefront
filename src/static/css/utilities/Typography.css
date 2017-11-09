@@ -28,7 +28,11 @@ p {
     font-size: 0.85rem;
     color: var(--primary-color);
     letter-spacing: 1px;
-    line-height: 2;
+    line-height: 1.7;
+
+    @media(--md-viewport) {
+        line-height: 2;
+    }
 }
 
 .u-strikethrough {

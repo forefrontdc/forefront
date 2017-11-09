@@ -7,7 +7,7 @@
     overflow: visible;
     position: relative;
     z-index: 1;
-    margin-top: calc(-100vw/10);
+    margin-top: calc(-100vw/12);
 
     &:hover {
         .Dots {
@@ -34,8 +34,12 @@
     padding: 0 1rem;
     font-size: 1rem;
     text-transform: uppercase;
-    letter-spacing: 6px;
+    letter-spacing: 1px;
     background-color: var(--secondary-color);
+
+    @media(--md-viewport) {
+        letter-spacing: 6px;
+    }
 }
 
 .FeaturedEvent-date {

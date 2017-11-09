@@ -59,7 +59,7 @@
 
 .Hero-content {
   background-color: var(--secondary-color);
-  padding: 2rem;
+  padding: 1rem;
   font-size: 14px;
   color: #898989;
   line-height: 1.6;
@@ -67,6 +67,10 @@
   display: flex;
   height: 86vh;
   min-height: 650px;
+
+  @media(--md-viewport) {
+      padding: 2rem;
+    }
 }
 
 @keyframes floatLogo {
