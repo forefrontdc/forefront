@@ -7,11 +7,7 @@
     overflow: visible;
     position: relative;
     z-index: 1;
-    margin-top: -8rem;
-
-    @media(--md-viewport) {
-        margin-top: -6rem;
-    }
+    margin-top: calc(-100vw/10);
 
     &:hover {
         .Dots {
