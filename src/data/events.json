@@ -1,48 +1,51 @@
 {
 "events": [
     {
-        "slug": "event-1",
-        "name": "First Event",
-        "date": "October 10th, 2017",
-        "location": "ISL",
-        "speaker": "Pretend Speaker Name",
-        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam eratr sadipscing elitr. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam eratr sadipscing elitr.",
+        "slug": "code",
+        "name": "Code",
+        "date": "",
+        "location": "",
+        "speaker": "",
+        "description": "Ramp up your front end skills as our speakers and panelists drop knowledge with talks and workshops on the latest trends in front end. Revel in the live code examples and thoughtful conversations.",
         "time": "8:00 AM - 10:00 AM",
-        "photo": "events/paula.jpg",
-        "eventbrite": "https://www.eventbrite.com"
+        "photo": "",
+        "link": "https://www.eventbrite.com",
+        "link_text": "Get tickets"
     },
     {
-        "slug": "event-2",
-        "name": "Second Event",
-        "date": "October 10th, 2017",
-        "location": "ISL",
-        "speaker": "Pretend Speaker Name",
-        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam eratr sadipscing elitr.",
-        "time": "8:00 AM - 10:00 AM",
-        "photo": "events/paula.jpg",
-        "eventbrite": "https://www.eventbrite.com"
+        "slug": "community",
+        "name": "Community",
+        "date": "",
+        "location": "",
+        "speaker": "",
+        "description": "Connect and network with like-minded professionals in the industry. Leverage Fore_Front’s inclusive atmosphere to build friendships and mentorships.",
+        "time": "",
+        "link": "https://www.eventbrite.com",
+        "link_text": "Get tickets"
     },
     {
-        "slug": "grid-showdown",
-        "name": "Battle of the Grids: The Masters of Layout Throw Down",
-        "date": "October 11th, 2017",
-        "location": "ISL",
-        "speaker": "Yeeeeeee Son",
-        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam eratr sadipscing elitr. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam eratr sadipscing elitr. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam eratr sadipscing elitr.",
-        "time": "8:00 AM - 10:00 AM",
-        "photo": "events/paula.jpg",
-        "eventbrite": "https://www.eventbrite.com"
+        "slug": "coffee",
+        "name": "Coffee",
+        "date": "",
+        "location": "",
+        "speaker": "",
+        "description": "But first, coffee. You bring the enthusiasm, we’ll provide bagels and caffeine.",
+        "time": "",
+        "photo": "",
+        "link": "https://www.eventbrite.com",
+        "link_text": "Get tickets"
     },
     {
         "slug": "looking-for-speakers",
         "name": "We’re Looking For Rockstar Speakers",
-        "date": "TBD",
-        "location": "ISL",
+        "date": "Jan 25th, 2018",
+        "location": "iStrategyLabs",
         "speaker": "You!",
-        "description": "Are you at the forefront of front end technologies? Are you a lover of Progressive Web Apps? Does CSS hold no secrets for you? Is accessibility a driving force of your coding practices? Is the user always right? Do non-performant websites keep you up at night? Share your knowledge with our community of front end developers. \nFore_Front is looking for rockstar front end developers from our community to speak at our upcoming events. Submit a talk proposal or workshop idea. Sample topics Include: Interactive design, accessibility, performance, UX, responsive development, cross-browser and compatibility, prototyping, teamwork and communication, cross-functional teams",
+        "description": "Are you at the forefront of front end technologies? Do Progressive Web Apps make your heart sing? Does CSS hold no secrets for you? Is accessibility a driving force of your coding practices? Fore_Front is looking for rockstar front end developers from the community to speak at our upcoming events. Submit a talk proposal or workshop idea.",
         "time": "8:00 AM - 10:00 AM.",
-        "photo": "events/paula.jpg",
-        "eventbrite": "https://www.eventbrite.com"
+        "photo": "",
+        "link": "mailto:forefront@isl.co",
+        "link_text": "Submit a Talk"
     }
   ]
 }

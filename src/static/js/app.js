@@ -50,4 +50,6 @@ window.onload = function(e){
   btn.addEventListener('click', function(){
     changeColor()
   })
+
+  console.log('Interested in speaking at our next event? Email forefront@isl.co for details (:')
 }

@@ -25,7 +25,7 @@
                         <span class="u-strikethrough">Meetup</span>
                         for Front_End Professionals</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Fore_Front is an anti-meetup for Front End Developers. We’re building a community of front end development professionals to share experiences, knowledge, and opportunities in Washington DC and beyond. 
                     </p>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                         </p>
                         <p>{{ event.description|safe }}</p>
                         <div class="u-textCenter">
-                            <a href="{{ event.eventbrite }}" class="Button" target="_blank">Get Tickets</a>
+                            <a href="{{ event.link }}" class="Button">{{ event.link_text}}</a>
                         </div>
                     </div>
                     {% endif %}
@@ -69,7 +69,7 @@
         <div class="Grid Grid--withGutter Grid--alignCenter">
             <div class="Grid-cell u-sm-size12of12 u-md-size10of12 u-lg-size7of12">
                 <div class="u-textCenter">
-                    <h2 class="u-light">Past_Events</h2>
+                    <h2 class="u-light">We Live By the 3 C's</h2>
 
                     {% for event in events.events %}
                     {% if not loop.last %}
@@ -77,7 +77,9 @@
                           <input id="Accordion-{{event.slug}}" type="checkbox" name="tabs">
                           <label for="Accordion-{{event.slug}}">{{ event.name }}</label>
                           <div class="Accordion-content">
+                            {% if event.date and event.location %}
                             <p>{{ event.date }} | @{{ event.location }}</p>
+                            {% endif %}
                             <p>{{ event.description }}</p>
                           </div>
                         </div>
@@ -95,7 +97,7 @@
                     <div class="Grid-cell u-sm-size12of12 u-md-size5of12">
                         <h2>What is Fore_Front?</h2>
                         <p class="Section-paragraph">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            Fore_Front is a morning event series for DC’s Front End Developer community. Hear how the community’s best developers are unleashing the power of the latest and greatest web technologies, tools, and best practices to push the boundaries of web development. Come for the code, stay for the community.
                         </p>
                     </div>
                     <div class="Grid-cell u-md-size1of12"></div>
