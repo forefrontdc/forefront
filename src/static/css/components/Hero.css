@@ -72,6 +72,11 @@
     }
 }
 
+.Hero-content--small {
+  height: 60vh;
+  min-height: 400px;
+}
+
 @keyframes floatLogo {
   0% {
     transform: translateY(-5px);

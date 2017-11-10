@@ -62,3 +62,16 @@
         transform: translateX(0);
     }
 }
+
+.Link--small {
+    color: var(--secondary-color);
+    text-decoration: none;
+    border-bottom: 1px solid var(--secondary-color);
+    padding: 0.25rem 0;
+    transition: all 500ms ease;
+
+    &:hover {
+        color: var(--primary-color);
+        background-color: var(--secondary-color);
+    }
+}

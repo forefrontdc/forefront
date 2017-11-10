@@ -7,12 +7,13 @@
     font-weight: 600;
     font-size: 0.85rem;
     padding: 1rem 2rem;
-    margin-top: 4rem;
+    margin-top: 1rem;
     border: 3px solid var(--primary-color);
     transition: all 200ms ease-in-out;
 
     @media(--md-viewport) {
         padding: 1.25rem 3rem;
+        margin-top: 4rem;
     }
 
     &:hover {

@@ -29,6 +29,7 @@ p {
     color: var(--primary-color);
     letter-spacing: 1px;
     line-height: 1.7;
+    margin-bottom: 1rem;
 
     @media(--md-viewport) {
         line-height: 2;
@@ -60,4 +61,26 @@ p {
 
 .u-light {
     color: var(--secondary-color);
+}
+.u-dark {
+    color: var(--primary-color);
+}
+
+.u-left-align {
+    text-align: left;
+}
+
+.coc-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    font-family: var(--font-courier);
+    letter-spacing: 1px;
+    color: var(--secondary-color);
+    text-align: left;
+}
+
+.coc-text {
+    color: var(--secondary-color);
+    text-align: left;
 }

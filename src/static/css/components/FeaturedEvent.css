@@ -7,7 +7,7 @@
     overflow: visible;
     position: relative;
     z-index: 1;
-    margin-top: calc(-100vw/7);
+    margin-top: calc(-100vw/5);
 
     &:hover {
         .Dots {

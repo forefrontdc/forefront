@@ -1,11 +1,89 @@
 {% extends '_base.html' %}
 
 {% block content %}
-<div class="Grid">
-    <div class="Grid-cell">
-        <section class="Intro">
-            <h1>Code of Conduct</h1>
-        </section>
+<div class="Hero u-mb0">
+    <div class="Hero-logotype">
+        <a href="/">{% include 'partials/svg/ff-logo-type.html' %}</a>
+    </div>
+    <div class="Hero-colorpicker">
+        <a href="#">
+            {% include 'partials/svg/color-picker.html' %}
+        </a>
+    </div>
+    <div class="Corner-wrapper">
+        <div class="Corner"></div>
+        <div class="Corner-inside"></div>
+    </div>
+
+    <div class="Hero-content Hero-content--small">
+        <div class="Grid Grid--alignMiddle">
+            <div class="Grid-cell Grid-cell--center u-sm-size12of12 u-md-size10of12 u-lg-size7of12">
+                <div class="u-textCenter">
+                    <a class="Hero-logo" href="/">{% include 'partials/svg/ff-logo.html' %}</a>
+                    <h1 class="u-mt2">Code of Conduct</h1>
+                    <p>
+                        By attending Fore_Front event, you agree to the following Code of Conduct.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+
+    <section class="Section Section--secondary">
+        <div class="Grid Grid--withGutter Grid--alignCenter">
+            <div class="Grid-cell u-sm-size12of12 u-lg-size8of12">
+                <div class="u-textCenter">
+                        <p class="coc-text">All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Fore_Front organizers will enforce this code throughout every event. Cooperation is expected from all participants to help ensure a safe environment for everybody.</p>
+
+                        <h2 class="coc-title">Need Help?</h2>
+                        <p class="coc-text">
+                            Email
+                            <a href="mailto:forefront@isl.co" class="Link--small">forefront@isl.co</a>
+                            or contact any of the organizers.
+                        </p>
+
+                        <h2 class="coc-title">The Quick Version</h2>
+                        <p class="coc-text">Our events are dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organisers.</p>
+
+                        <h2 class="coc-title">The Less Quick Version</h2>
+                        <p class="coc-text">Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion, technology choices, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.</p>
+
+                        <p class="coc-text">Participants asked to stop any harassing behavior are expected to comply immediately.</p>
+
+                        <p class="coc-text">Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualised images, activities, or other material. Booth staff (including volunteers) should not use sexualised clothing/uniforms/costumes, or otherwise create a sexualised environment.</p>
+
+                        <p class="coc-text">If a participant engages in harassing behavior, the conference organisers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund.</p>
+
+                        <p class="coc-text">If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified as they'll be wearing branded clothing and/or badges.</p>
+
+                        <p class="coc-text">Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.</p>
+
+                        <p class="coc-text">We expect participants to follow these rules at conference and workshop venues and conference-related social events.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <footer class="Footer">
+        <div class="Grid Grid--withGutter Grid--alignCenter">
+            <div class="Grid-cell u-sm-size12of12 u-md-size4of12">
+                <div class="Footer-item Footer-item--first">
+                    <a class="Footer-logo" href="/">{% include 'partials/svg/ff-logo.html' %}</a>
+                </div>
+            </div>
+            <div class="Grid-cell u-sm-size12of12 u-md-size4of12">
+                <div class="Footer-item">
+                    <a class="Footer-logo Footer-logo--isl" href="https://isl.co/" target="_blank">{% include 'partials/svg/isl-logo.html' %}</a>
+                </div>
+            </div>
+            <div class="Grid-cell u-sm-size12of12 u-md-size4of12">
+                <div class="Footer-item Footer-item--last">
+                    <a href="https://www.instagram.com/istrategylabs/" class="Link--secondary" target="_blank">Instagram</a>
+                    <a href="https://www.facebook.com/istrategylabs/" class="Link--secondary" target="_blank">Facebook</a>
+                    <a href="https://twitter.com/istrategylabs" class="Link--secondary" target="_blank">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 {% endblock %}

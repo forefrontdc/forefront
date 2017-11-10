@@ -1,5 +1,5 @@
 .Section {
-    padding: 4rem 0;
+    padding: 4rem 1rem;
 
     @media(--md-viewport) {
         padding: 6rem 0;
