@@ -1,7 +1,11 @@
 .Hero {
-    margin: 1rem;
+    margin: 0.5rem;
     overflow: hidden;
     position: relative;
+
+    @media(--md-viewport) {
+      margin: 1rem;
+    }
 }
 
 .Hero-logo {
