@@ -51,5 +51,5 @@ window.onload = function(e){
     changeColor()
   })
 
-  console.log('Interested in speaking at our next event? Email forefront@isl.co for details (:')
+  console.log('Interested in speaking at our next event? Email hello@4front.io for details (:')
 }
