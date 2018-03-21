@@ -36,16 +36,16 @@
         "link_text": "Get tickets"
     },
     {
-        "slug": "looking-for-speakers",
-        "name": "We’re Looking For Rockstar Speakers",
-        "date": "TBD",
+        "slug": "web-accessibility",
+        "name": "Everyone's Internet: Web Accessibility Panel",
+        "date": "APRIL 27TH, 2018 9:00 AM - 11:00 AM",
         "location": "iStrategyLabs",
         "speaker": "You!",
-        "description": "Are you at the forefront of front end? Do PWAs give you life? Does CSS hold no secrets for you? Do you keep accessibility front of mind while developing? Fore_Front is looking for rockstar front end developers to speak at our upcoming events. Submit a talk proposal or workshop idea (it could be a sentence or a novel. We just want to hear what inspires you).",
-        "time": "8:00 AM - 10:00 AM.",
+        "description": "<p>Web accessibility is all of our responsibility. And it's a big role. How do we convince our bosses and clients to invest in accessibility? How do we work together across teams to build a better experience?</p><p>In our kickoff event, we'll hear from a panel of industry experts on web accessibility best practices, the role of design and development, cultural transformations, and more! Come with an appetite to learn, we'll provide bagels, coffee, and fresh fruit.</p>",
+        "time": "9:00 AM - 11:00 AM.",
         "photo": "",
         "link": "mailto:hello@4front.io",
-        "link_text": "Submit a Talk"
+        "link_text": "Learn More"
     }
   ]
 }
