@@ -1,0 +1,99 @@
+:root {
+    --steam-durration: 6s;
+  }
+.Coffee-mug{
+    stroke: var(--primary-color);
+    fill: var(--secondary-color);
+}
+
+/* ids:files_1_,devtools_1_,codepen_1_,speach_1_,nails_1_,pointer_1_,_runler_1_,
+pencil_1_,Paint_1_,hammer_1_,squiggle-right_1_,squiggle-left_1_,squiggle-middle_1_
+classes: Word_1_,Word_2_,Word_3_ */
+
+#speech_1_ {
+    animation: upper var(--steam-durration) infinite; 
+}
+
+#ruler_1_ {
+    animation: downer var(--steam-durration) infinite; 
+}
+/**/
+#codepen_1_ {
+    animation: downer var(--steam-durration) infinite; 
+}
+#devtools_1_{
+    animation: upper var(--steam-durration) infinite; 
+}
+
+#pointer_1_{
+    animation: downer var(--steam-durration) infinite; 
+}
+
+/**/
+
+#nail_1_{
+    animation: upper var(--steam-durration) infinite; 
+}
+
+#Paint_1_{
+    animation: downer var(--steam-durration) infinite; 
+}
+
+/**/
+
+#hammer_1_{
+    animation: downer var(--steam-durration) infinite; 
+}
+
+#files_1_{
+    animation: upper var(--steam-durration) infinite; 
+}
+
+#pencil_1_{
+    animation: downer var(--steam-durration) infinite; 
+}
+
+/**/
+
+.Word_1_ {
+    animation: downer var(--steam-durration) infinite; 
+}
+
+.Word_2_ {
+    animation: upper var(--steam-durration) infinite; 
+}
+
+.Word_3_ {
+    animation: downer var(--steam-durration) infinite; 
+}
+
+
+@keyframes upper {
+    0% {
+        transform: translateY(-4px);
+      }
+    
+      50% {
+        transform: translateY(4px);
+    
+      }
+    
+      100% {
+        transform: translateY(-4px);
+      }
+}
+
+@keyframes downer {
+    0% {
+        transform: translateY(4px);
+      }
+    
+      50% {
+        transform: translateY(-4px);
+    
+      }
+    
+      100% {
+        transform: translateY(4px);
+      }
+}

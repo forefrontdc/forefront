@@ -11,6 +11,7 @@
 @import 'components/PastEvents';
 @import 'components/Section';
 @import 'components/Footer';
+@import 'components/Coffee-mug';
 
 @import 'utilities/Typography';
 @import 'utilities/Utilities';
@@ -59,4 +60,11 @@ body {
     .Grid {
         padding: 0;
     }
+}
+
+.Content-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
 }
