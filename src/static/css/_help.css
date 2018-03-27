@@ -22,3 +22,10 @@
         color: #f00;
     }
 }
+
+.Content-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
