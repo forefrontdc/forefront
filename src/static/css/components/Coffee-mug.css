@@ -19,29 +19,35 @@ classes: Word_1_,Word_2_,Word_3_ */
 @keyframes upper {
     0% {
         transform: translateY(-4px);
+        transition: all 500ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
       }
     
       50% {
         transform: translateY(4px);
+        transition: all 500ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
     
       }
     
       100% {
         transform: translateY(-4px);
+        transition: all 500ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
       }
 }
 
 @keyframes downer {
     0% {
         transform: translateY(4px);
+        transition: all 500ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
       }
     
       50% {
         transform: translateY(-4px);
+        transition: all 500ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
     
       }
     
       100% {
         transform: translateY(4px);
+        transition: all 500ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
       }
 }
