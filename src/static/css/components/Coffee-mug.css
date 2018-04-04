@@ -1,53 +1,57 @@
-.Coffee-mug{
+.Coffee-mug {
     fill: var(--primary-color);
 }
 
-/* ids:files_1_,devtools_1_,codepen_1_,speach_1_,nails_1_,pointer_1_,_runler_1_,
-pencil_1_,Paint_1_,hammer_1_,squiggle-right_1_,squiggle-left_1_,squiggle-middle_1_
-classes: Word_1_,Word_2_,Word_3_ */
-
-#speech_1_, #devtools_1_, #nail_1_, #files_1_, .Word_2_  {
-    animation: upper var(--steam-durration) infinite; 
+#speech_1_,
+#devtools_1_,
+#nail_1_,
+#files_1_,
+.Word_2_ {
+    animation: upper var(--steam-durration) infinite;
 }
 
-#ruler_1_, #codepen_1_, #pointer_1_, #Paint_1_, #hammer_1_,
-#pencil_1_, .Word_1_ , .Word_3_   {
-    animation: downer var(--steam-durration) infinite; 
+#ruler_1_,
+#codepen_1_,
+#pointer_1_,
+#Paint_1_,
+#hammer_1_,
+#pencil_1_,
+.Word_1_,
+.Word_3_ {
+    animation: downer var(--steam-durration) infinite;
 }
 
 
 @keyframes upper {
     0% {
         transform: translateY(-4px);
-        transition: all 500ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
-      }
-    
-      50% {
+        transition: all 500ms cubic-bezier(0.42, 0, 1, 1);
+    }
+
+    50% {
         transform: translateY(4px);
-        transition: all 500ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
-    
-      }
-    
-      100% {
+        transition: all 500ms cubic-bezier(0.42, 0, 1, 1);
+    }
+
+    100% {
         transform: translateY(-4px);
-        transition: all 500ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
-      }
+        transition: all 500ms cubic-bezier(0.42, 0, 1, 1);
+    }
 }
 
 @keyframes downer {
     0% {
         transform: translateY(4px);
-        transition: all 500ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
-      }
-    
-      50% {
+        transition: all 500ms cubic-bezier(0.42, 0, 1, 1);
+    }
+
+    50% {
         transform: translateY(-4px);
-        transition: all 500ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
-    
-      }
-    
-      100% {
+        transition: all 500ms cubic-bezier(0.42, 0, 1, 1);
+    }
+
+    100% {
         transform: translateY(4px);
-        transition: all 500ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
-      }
+        transition: all 500ms cubic-bezier(0.42, 0, 1, 1);
+    }
 }

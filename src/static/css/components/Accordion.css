@@ -1,90 +1,91 @@
 .Accordion {
-  position: relative;
-  margin-bottom: 1px;
-  width: 100%;
-  color: var(--secondary-color);
-  overflow: hidden;
+    position: relative;
+    margin-bottom: 1px;
+    width: 100%;
+    color: var(--secondary-color);
+    overflow: hidden;
 }
 
 input {
-  position: absolute;
-  opacity: 0;
-  z-index: -1;
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
 }
 
 label {
-  text-align: left;
-  position: relative;
-  display: block;
-  background: var(--primary-color);
-  font-weight: bold;
-  line-height: 1.5;
-  font-size: 18px;
-  padding-bottom: 1rem;
-  padding-right: 5rem;
-  cursor: pointer;
-  border-bottom: 1px solid var(--secondary-color);
+    text-align: left;
+    position: relative;
+    display: block;
+    background: var(--primary-color);
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 18px;
+    padding-bottom: 1rem;
+    padding-right: 5rem;
+    cursor: pointer;
+    border-bottom: 1px solid var(--secondary-color);
 }
 
 .blue label {
-  background: var(--primary-color);
+    background: var(--primary-color);
 }
 
 .Accordion-content {
-  max-height: 0;
-  overflow: hidden;
-  background: var(--primary-color);
-  color: var(--secondary-color);
-  transition: max-height .35s;
-  margin-bottom: 1rem;
-
-  p {
+    max-height: 0;
+    overflow: hidden;
+    background: var(--primary-color);
     color: var(--secondary-color);
-    text-align: left;
-  }
+    transition: max-height 0.35s;
+    margin-bottom: 1rem;
 
-  @media(--md-viewport) {
-    width: 80%;
-  }
+    p {
+        color: var(--secondary-color);
+        text-align: left;
+    }
+
+    @media(--md-viewport) {
+        width: 80%;
+    }
 }
 
 .blue .tab-content {
-  background: #3498db;
+    background: #3498db;
 }
 
 .Accordion-content p {
-  margin: 1rem;
+    margin: 1rem;
 }
+
 /* :checked */
 input:checked ~ .Accordion-content {
-  max-height: 12rem;
+    max-height: 12rem;
 }
 
 /* Icon */
 label::after {
-  position: absolute;
-  right: 0;
-  top: -1rem;
-  display: block;
-  width: 3rem;
-  height: 3rem;
-  line-height: 3;
-  text-align: center;
-  transition: all .35s;
+    position: absolute;
+    right: 0;
+    top: -1rem;
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3;
+    text-align: center;
+    transition: all 0.35s;
 }
 
 input[type=checkbox] + label::after {
-  content: "+";
+    content: '+';
 }
 
 input[type=radio] + label::after {
-  content: "\25BC";
+    content: '\25BC';
 }
 
 input[type=checkbox]:checked + label::after {
-  transform: rotate(315deg);
+    transform: rotate(315deg);
 }
 
 input[type=radio]:checked + label::after {
-  transform: rotateX(180deg);
+    transform: rotateX(180deg);
 }

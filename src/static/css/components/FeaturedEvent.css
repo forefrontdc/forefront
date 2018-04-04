@@ -7,7 +7,7 @@
     overflow: visible;
     position: relative;
     z-index: 1;
-    margin-top: calc(-100vw/8);
+    margin-top: calc(-100vw / 8);
 
     &:hover {
         .Dots {
@@ -17,10 +17,10 @@
     }
 
     @media(--md-viewport) {
-        margin-top: calc(-100vw/8);
+        margin-top: calc(-100vw / 8);
     }
     @media(--lg-viewport) {
-        margin-top: calc(-100vw/12);
+        margin-top: calc(-100vw / 12);
     }
 }
 
@@ -54,6 +54,6 @@
     text-transform: uppercase;
 
     @media(--md-viewport) {
-         margin: 2rem 0;
+        margin: 2rem 0;
     }
 }

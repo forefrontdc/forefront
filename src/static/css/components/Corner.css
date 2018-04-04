@@ -5,17 +5,17 @@
     background-color: var(--secondary-color);
     width: 65px;
     height: 65px;
-  }
+}
 
-  .Corner {
+.Corner {
     position: absolute;
     width: 0;
     height: 0;
     border-top: 66px solid transparent;
     border-left: 67px solid var(--primary-color);
-  }
+}
 
-  .Corner-inside {
+.Corner-inside {
     position: absolute;
     left: 3px;
     top: 7px;
@@ -23,27 +23,27 @@
     height: 0;
     border-top: 56px solid transparent;
     border-left: 57px solid var(--secondary-color);
-  }
+}
 
-  /* Small Corner */
-  .Corner-wrapper--small {
+/* Small Corner */
+.Corner-wrapper--small {
     position: absolute;
     top: 0;
     right: 0;
     background-color: var(--secondary-color);
     width: 35px;
     height: 34px;
-  }
+}
 
-  .Corner--small {
+.Corner--small {
     position: absolute;
     width: 0;
     height: 0;
     border-top: 34px solid transparent;
     border-left: 35px solid var(--primary-color);
-  }
+}
 
-  .Corner-inside--small {
+.Corner-inside--small {
     position: absolute;
     left: 3px;
     top: 8px;
@@ -51,4 +51,4 @@
     height: 0;
     border-top: 23px solid transparent;
     border-left: 24px solid var(--secondary-color);
-  }
+}

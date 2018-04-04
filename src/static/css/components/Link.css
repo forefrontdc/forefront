@@ -10,7 +10,7 @@
     transition: all 250ms ease-in-out;
 
     @media(--md-viewport) {
-      font-size: 3rem;
+        font-size: 3rem;
     }
 
     &:hover {
@@ -44,7 +44,7 @@
         cursor: pointer;
     }
 
-    &:before {
+    &::before {
         content: '';
         position: absolute;
         left: 0;

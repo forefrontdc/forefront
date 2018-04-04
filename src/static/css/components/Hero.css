@@ -4,7 +4,7 @@
     position: relative;
 
     @media(--md-viewport) {
-      margin: 1rem;
+        margin: 1rem;
     }
 }
 
@@ -12,86 +12,86 @@
     margin-bottom: 1rem;
 
     svg {
-      animation: floatLogo 4s infinite;
-      g {
-        fill: var(--primary-color);
-      }
+        animation: floatLogo 4s infinite;
+
+        g {
+            fill: var(--primary-color);
+        }
     }
 }
 
 .Hero-logotype {
-  position: absolute;
-  padding: 0.5rem 1rem;
-
-  @media(--md-viewport) {
-    padding: 1.5rem 1.5rem 1.5rem 1.7rem;
-  }
-
-  svg {
-    width: 3rem;
-
-    g {
-      fill: var(--primary-color);
-    }
+    position: absolute;
+    padding: 0.5rem 1rem;
 
     @media(--md-viewport) {
-      width: 4rem;
+        padding: 1.5rem 1.5rem 1.5rem 1.7rem;
     }
-  }
+
+    svg {
+        width: 3rem;
+
+        g {
+            fill: var(--primary-color);
+        }
+
+        @media(--md-viewport) {
+            width: 4rem;
+        }
+    }
 }
 
 .Hero-colorpicker {
-  position: absolute;
-  right: 18px;
-  top: 35px;
-  z-index: 1000;
-
-  @media(--md-viewport) {
-    right: 12px;
-  }
-
-  svg {
-    width: 3rem;
-    fill: var(--primary-color);
+    position: absolute;
+    right: 18px;
+    top: 35px;
+    z-index: 1000;
 
     @media(--md-viewport) {
-      width: 4rem;
+        right: 12px;
     }
-  }
+
+    svg {
+        width: 3rem;
+        fill: var(--primary-color);
+
+        @media(--md-viewport) {
+            width: 4rem;
+        }
+    }
 }
 
 .Hero-content {
-  background-color: var(--secondary-color);
-  padding: 1rem;
-  font-size: 14px;
-  color: #898989;
-  line-height: 1.6;
-  border: 3px solid var(--primary-color);
-  display: flex;
-  height: 86vh;
-  min-height: 650px;
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    font-size: 14px;
+    color: #898989;
+    line-height: 1.6;
+    border: 3px solid var(--primary-color);
+    display: flex;
+    height: 86vh;
+    min-height: 650px;
 
-  @media(--md-viewport) {
-      padding: 2rem;
+    @media(--md-viewport) {
+        padding: 2rem;
     }
 }
 
 .Hero-content--small {
-  height: 60vh;
-  min-height: 400px;
+    height: 60vh;
+    min-height: 400px;
 }
 
 @keyframes floatLogo {
-  0% {
-    transform: translateY(-5px);
-  }
+    0% {
+        transform: translateY(-5px);
+    }
 
-  50% {
-    transform: translateY(5px);
+    50% {
+        transform: translateY(5px);
+    }
 
-  }
-
-  100% {
-    transform: translateY(-5px);
-  }
+    100% {
+        transform: translateY(-5px);
+    }
 }

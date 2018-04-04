@@ -62,6 +62,7 @@ p {
 .u-light {
     color: var(--secondary-color);
 }
+
 .u-dark {
     color: var(--primary-color);
 }
