@@ -22,3 +22,14 @@
         color: #f00;
     }
 }
+
+.Content-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media(--sm-only-viewport) {
+        text-align: center;
+        margin-top: 20px;
+    }
+  
+}

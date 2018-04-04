@@ -6,11 +6,11 @@
 @import 'components/Dots';
 @import 'components/FeaturedEvent';
 @import 'components/Hero';
-@import 'components/Image';
 @import 'components/Link';
 @import 'components/PastEvents';
 @import 'components/Section';
 @import 'components/Footer';
+@import 'components/Coffee-mug';
 
 @import 'utilities/Typography';
 @import 'utilities/Utilities';
@@ -41,6 +41,8 @@
 
     --primary-color: var(--dark-purple);
     --secondary-color: var(--pale-yellow);
+
+    --steam-durration: 6s;
 }
 
 body {
