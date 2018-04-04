@@ -1,0 +1,43 @@
+.Image {
+    overflow: hidden;
+    position: relative;
+    margin-top: 2rem;
+    background-position: center center;
+
+    @media(--md-viewport) {
+        min-width: 225px;
+        /*height: 275px;*/
+        margin-top: 0;
+    }
+
+    @media(--lg-viewport) {
+        min-width: 100%;
+        height: 50%;
+        margin-top: 0;
+    }
+    ::after {
+        width: 100%;
+        height: 100%;
+        background-color: var(--secondary-color);
+        background-image: radial-gradient(var(--primary-color) 25%, transparent 25%);
+        background-size: 12px 12px;
+        background-position: 48% 50%;
+        border: 3px solid var(--primary-color);
+        z-index: -1;
+        transition: all 250ms ease-in-out;
+        transition-property: top, right;
+
+        @media(--md-viewport) {
+            top: 30px;
+            right: 30px;
+        }
+    }
+}
+
+.Image-inner {
+    border: 3px solid var(--secondary-color);
+    height: 100%;
+    width: 100%;
+
+    
+}

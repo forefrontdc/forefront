@@ -33,7 +33,7 @@ gulp.task('css', () =>
 )
 
 gulp.task('nunjucks', () =>
-  gulp.src(['src/templates/**/*.html', '!**/_*', '!src/templates/event.html'])
+  gulp.src(['src/templates/**/*.html', '!**/_*'])
     .pipe(plumber())
     .pipe(nunjucks.compile(projectConfig.getProperties(), {
       throwOnUndefined: true,

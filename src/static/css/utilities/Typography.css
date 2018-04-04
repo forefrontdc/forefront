@@ -23,6 +23,16 @@ h2 {
     }
 }
 
+h3 {
+    font-family: var(--font-courier);
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 4px;
+    margin: 1rem 0;
+    text-transform: uppercase;
+}
+
 p {
     font-family: var(--font-courier);
     font-size: 0.85rem;

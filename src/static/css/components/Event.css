@@ -1,0 +1,65 @@
+.Event {
+    margin: 1rem;
+    overflow: visible;
+    position: relative;
+    z-index: 1;
+    margin-top: calc(-100vw / 8);
+
+    &:hover {
+        .Dots {
+            top: 0;
+            right: 0;
+        }
+    }
+
+    @media(--md-viewport) {
+        margin-top: calc(-100vw / 8);
+    }
+    @media(--lg-viewport) {
+        margin-top: calc(-100vw / 12);
+    }
+}
+
+.Event-content {
+    background-color: var(--secondary-color);
+    padding: 1.5rem;
+
+    @media(--md-viewport) {
+        padding: 4rem;
+    }
+}
+
+.Event-logo {
+    svg {
+        height: 3rem;
+        width: auto;
+        animation: floatLogo 4s infinite;
+
+        g {
+            fill: var(--primary-color);
+        }
+    }
+}
+
+.Event-label {
+    position: absolute;
+    top: -12px;
+    left: 20px;
+    padding: 0 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: var(--secondary-color);
+
+    @media(--md-viewport) {
+        letter-spacing: 6px;
+    }
+}
+
+.Speaker {
+    color: var(--secondary-color);
+}
+
+.Speaker-bio {
+    color: var(--secondary-color);
+}

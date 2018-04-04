@@ -10,7 +10,9 @@
         "time": "8:00 AM - 10:00 AM",
         "photo": "",
         "link": "https://www.eventbrite.com",
-        "link_text": "Get tickets"
+        "link_text": "Get tickets",
+        "ticket_link": "",
+        "ticket_text": ""
     },
     {
         "slug": "connect",
@@ -21,7 +23,9 @@
         "description": "Network with like-minded professionals in the industry. Leverage Fore_Front’s inclusive atmosphere to build friendships, partnerships, and mentorships.",
         "time": "",
         "link": "https://www.eventbrite.com",
-        "link_text": "Get tickets"
+        "link_text": "Get tickets",
+        "ticket_link": "",
+        "ticket_text": ""
     },
     {
         "slug": "caffeinate",
@@ -33,19 +37,49 @@
         "time": "",
         "photo": "",
         "link": "https://www.eventbrite.com",
-        "link_text": "Get tickets"
+        "link_text": "Get tickets",
+        "ticket_link": "",
+        "ticket_text": ""
     },
     {
         "slug": "web-accessibility",
-        "name": "Everyone's Internet: Web Accessibility Panel",
+        "name": "Everyone's Internet:<br>Web Accessibility Panel",
         "date": "APRIL 27TH, 2018 9:00 AM - 11:00 AM",
         "location": "iStrategyLabs",
         "speaker": "You!",
         "description": "<p>Web accessibility is all of our responsibility. And it's a big role. How do we convince our bosses and clients to invest in accessibility? How do we work together across teams to build a better experience?</p><p>In our kickoff event, we'll hear from a panel of industry experts on web accessibility best practices, the role of design and development, cultural transformations, and more! Come with an appetite to learn, we'll provide bagels, coffee, and fresh fruit.</p>",
         "time": "9:00 AM - 11:00 AM.",
         "photo": "",
-        "link": "mailto:hello@4front.io",
-        "link_text": "Learn More"
+        "link": "/event.html",
+        "link_text": "Learn More",
+        "ticket_link": "https://www.eventbrite.com",
+        "ticket_text": "Get Tickets",
+        "speakers": [
+            {
+                "name": "Ted Whitehead",
+                "photo": "/static/img/speakers/ted-whitehead.jpg",
+                "bio": "Ted Whitehead is the Lead Front-End Engineer an accessibility evangelist at Threespot. During his seven years there, he’s had the opportunity to work on projects for The Pew Charitable Trusts, The Smithsonian Institution, The Brookings Institution, the Cystic Fibrosis Foundation, and many others. He’s gained a wealth of experience around coding accessible websites and demonstrating the value of accessibility to clients and colleagues. When not coding, Ted enjoys playing the piano and chasing his toddler son around the house.",
+                "website": "www.4front.io"
+            },
+            {
+                "name": "Ally Palanzi",
+                "photo": "/static/img/speakers/ally_palanzi.jpg",
+                "bio": "Ally Palanzi is a software engineer with a passion for design, accessibility, and ice cream. She's actively involved in the tech community – speaking at conferences around the world on topics like accessibility and serving as a member of the DCFemTech leadership board. During the day, she's an engineer at Nava, where she builds applications that help millions of Americans enroll in healthcare through HealthCare.Gov.",
+                "website": "www.4front.io"
+            },
+            {
+                "name": "Lindsey Kopacz",
+                "photo": "/static/img/speakers/lindsey_kopacz.png",
+                "bio": "Lindsey Kopacz is a self-taught front-end web developer working at Acquia who made her start in Drupal 7. She started learning about accessibility 3 years ago when she was told to fix a few bug tickets that came through an accessibility checker, and admittedly had no idea what she was doing.  She has come far since then from solving problems like fixing keyboard tabbing issues with JavaScript, automating accessibility checking using plugins like pa11y, and advising the clients why they should care. Her tech passion involves anything that merges technology and empathy—which makes it clear why accessibility is her area of expertise. Based in Washington, DC, she spends most of her free time reading, drinking craft beer, or lifting weights.",
+                "website": "www.4front.io"
+            },
+            {
+                "name": "Michael Cervantes (Moderator)",
+                "photo": "/static/img/speakers/isl-logo.png",
+                "bio": "TBD",
+                "website": "www.4front.io"
+            }
+        ]
     }
   ]
 }

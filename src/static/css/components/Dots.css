@@ -18,3 +18,15 @@
         right: 30px;
     }
 }
+
+.Dots--inline {
+    position: relative;
+    height: 2rem;
+    width: 100%;
+    background-color: var(--secondary-color);
+    background-image: radial-gradient(var(--primary-color) 25%, transparent 25%);
+    background-size: 12px 12px;
+    background-position: 48% 50%;
+    transition: all 250ms ease-in-out;
+    transition-property: top, right;
+}

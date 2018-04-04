@@ -1,10 +1,97 @@
 {% extends '_base.html' %}
 
 {% block content %}
-<div class="Grid">
-    <div class="Grid-cell">
-        <h1>{{ name }}</h1>
-    </div>
-</div>
+<div class="Hero u-mb0">
+        <div class="Hero-logotype">
+            <a href="/">{% include 'partials/svg/ff-logo-type.html' %}</a>
+        </div>
+        <div class="Hero-colorpicker">
+            <a href="#">
+                {% include 'partials/svg/color-picker.html' %}
+            </a>
+        </div>
+        <div class="Corner-wrapper">
+            <div class="Corner"></div>
+            <div class="Corner-inside"></div>
+        </div>
 
+        <div class="Hero-content">
+            <div class="Grid Grid--alignMiddle">
+                <div class="Grid-cell Grid-cell--center u-sm-size9of12">
+                    {% for event in events.events %}
+                    {% if loop.last %}
+                    <div class="Event-content">
+                        <a class="Event-logo" href="/">{% include 'partials/svg/ff-logo.html' %}</a>
+                        <h3>
+                        {{ event.date }} @ {{ event.location }}<br>
+                        </h3>
+                        <h1>{{ event.name|safe }}</h1>
+                        <p>{{ event.description|safe }}</p>
+                        <div class="u-textLeft">
+                            <a href="{{ event.ticket_link }}" class="Button" target="_blank">{{ event.ticket_text}}</a>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+                <div class="Grid-cell Grid-cell--center u-sm-size12of12">
+                    <div class="Dots--inline"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="Section Section--secondary">
+        <div class="Grid Grid--withGutter Grid--alignCenter">
+            <div class="Grid-cell u-sm-size12of12 u-lg-size9of12">
+                <h3>About Our Speakers</h3>
+                <h2 class="Speaker">The voice behind the message</h2>
+
+                <div class="Grid Grid--withGutter Grid--alignCenter">
+                    {% for event in events.events %}
+                    {% if loop.last %}
+                    {% for speaker in event.speakers %}
+                    <div class="Grid-cell u-sm-size12of12 u-lg-size6of12">
+                        <div class="Image">
+                            <img src="{{ speaker.photo }}" class="Image-inner">
+                            <div class="Corner-wrapper--secondary">
+                                <div class="Corner--secondary"></div>
+                                <div class="Corner-inside--secondary"></div>
+                            </div>
+                            <div class="Dots"></div>
+                        </div>
+                        <h2 class="Speaker">{{ speaker.name }}</h2>
+                        <p class="Speaker-bio">
+                            {{ speaker.bio|safe }}
+                        </p>
+                    </div>
+                    {% endfor %}
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <footer class="Footer">
+        <div class="Grid Grid--withGutter Grid--alignCenter">
+            <div class="Grid-cell u-sm-size12of12 u-md-size4of12">
+                <div class="Footer-item Footer-item--first">
+                    <a class="Footer-logo" href="/">{% include 'partials/svg/ff-logo.html' %}</a>
+                </div>
+            </div>
+            <div class="Grid-cell u-sm-size12of12 u-md-size4of12">
+                <div class="Footer-item">
+                    <a class="Footer-logo Footer-logo--isl" href="https://isl.co/" target="_blank">{% include 'partials/svg/isl-logo.html' %}</a>
+                </div>
+            </div>
+            <div class="Grid-cell u-sm-size12of12 u-md-size4of12">
+                <div class="Footer-item Footer-item--last">
+                    <a href="https://www.instagram.com/istrategylabs/" class="Link--secondary" target="_blank">Instagram</a>
+                    <a href="https://www.facebook.com/istrategylabs/" class="Link--secondary" target="_blank">Facebook</a>
+                    <a href="https://twitter.com/istrategylabs" class="Link--secondary" target="_blank">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 {% endblock content %}

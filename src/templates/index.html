@@ -2,36 +2,36 @@
 
 {% block content %}
 <main>
-<div class="Hero">
-    <div class="Hero-logotype">
-        <a href="/">{% include 'partials/svg/ff-logo-type.html' %}</a>
-    </div>
-    <div class="Hero-colorpicker">
-        <a href="#">
-            {% include 'partials/svg/color-picker.html' %}
-        </a>
-    </div>
-    <div class="Corner-wrapper">
-        <div class="Corner"></div>
-        <div class="Corner-inside"></div>
-    </div>
+    <div class="Hero">
+        <div class="Hero-logotype">
+            <a href="/">{% include 'partials/svg/ff-logo-type.html' %}</a>
+        </div>
+        <div class="Hero-colorpicker">
+            <a href="#">
+                {% include 'partials/svg/color-picker.html' %}
+            </a>
+        </div>
+        <div class="Corner-wrapper">
+            <div class="Corner"></div>
+            <div class="Corner-inside"></div>
+        </div>
 
-    <div class="Hero-content">
-        <div class="Grid Grid--alignMiddle">
-            <div class="Grid-cell Grid-cell--center u-sm-size12of12 u-md-size10of12 u-lg-size7of12">
-                <div class="u-textCenter">
-                    <a class="Hero-logo" href="/">{% include 'partials/svg/ff-logo.html' %}</a>
-                    <h1 class="u-mt2">A
-                        <span class="u-strikethrough">Meetup</span>
-                        for Front_End Professionals</h1>
-                    <p>
-                        Fore_Front is a speaker series for Front End Developers. We’re building a community of front end development professionals to share experiences, further our collective knowledge,  explore the latest tech &amp; tools, and discuss opportunities in Washington DC (and beyond).
-                    </p>
+        <div class="Hero-content">
+            <div class="Grid Grid--alignMiddle">
+                <div class="Grid-cell Grid-cell--center u-sm-size12of12 u-md-size10of12 u-lg-size7of12">
+                    <div class="u-textCenter">
+                        <a class="Hero-logo" href="/">{% include 'partials/svg/ff-logo.html' %}</a>
+                        <h1 class="u-mt2">A
+                            <span class="u-strikethrough">Meetup</span>
+                            for Front_End Professionals</h1>
+                        <p>
+                            Fore_Front is a speaker series for Front End Developers. We’re building a community of front end development professionals to share experiences, further our collective knowledge,  explore the latest tech &amp; tools, and discuss opportunities in Washington DC (and beyond).
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
     <section class="Featured">
         <div class="Grid Grid--alignCenter">
@@ -47,7 +47,7 @@
                     {% for event in events.events %}
                     {% if loop.last %}
                     <div class="FeaturedEvent-content">
-                        <h2>{{ event.name }}</h2>
+                        <h2>{{ event.name|safe }}</h2>
                         <p class="FeaturedEvent-date">
                         {{ event.date }} @
                         {{ event.location }}<br>

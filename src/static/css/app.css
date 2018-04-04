@@ -11,6 +11,8 @@
 @import 'components/Section';
 @import 'components/Footer';
 @import 'components/Coffee-mug';
+@import 'components/Event';
+@import 'components/Image';
 
 @import 'utilities/Typography';
 @import 'utilities/Utilities';
@@ -25,7 +27,7 @@
 @custom-media --lg-viewport (min-width: 960px);
 
 :root {
-    --Grid-gutter-size: 10px; /* suitcss property overwrite */
+    --Grid-gutter-size: 30px; /* suitcss property overwrite */
     --Grid-max-width: 1200px; /* custom property */
 
     --font-times: 'Times New Roman', Times, serif;
