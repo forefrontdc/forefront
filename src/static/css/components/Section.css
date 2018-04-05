@@ -34,3 +34,12 @@
         width: 85%;
     }
 }
+
+hr {
+    width: 75%;
+    background-color: var(--secondary-color);
+    height: 1px;
+    border: none;
+    opacity: 0.5;
+    margin: 2rem auto;
+}

@@ -50,13 +50,13 @@
                     {% for speaker in event.speakers %}
                     <div class="Grid-cell u-sm-size12of12 u-lg-size6of12">
                         <div class="Image u-mt2">
-                            <img src="{{ speaker.photo }}" class="Image-inner">
+                            <img src="{{ speaker.photo }}" class="Image-inner" alt="{{ speaker.name }}">
                             <div class="Corner-wrapper--secondary">
                                 <div class="Corner--secondary"></div>
                                 <div class="Corner-inside--secondary"></div>
                             </div>
-                            <div class="Dots"></div>
                         </div>
+                        <div class="Dots--speaker"></div>
                         <h2 class="Speaker u-mt2">{{ speaker.name }}</h2>
                         <p class="Speaker-bio">
                             {{ speaker.bio|safe }}
@@ -67,6 +67,27 @@
                     {% endfor %}
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="Section Section--secondary">
+        <hr>
+        <div class="Grid Grid--withGutter Grid--alignCenter">
+             <div class="Grid-cell u-sm-size12of12 Grid-cell--center">
+                <h2 class="u-light">The Location</h2>
+            </div>
+            <div class="Grid-cell u-sm-size12of12 u-md-size3of12">
+                Parking and Transportation
+            </div>
+            <div class="Grid-cell u-sm-size12of12 u-md-size3of12">
+               Item 2
+            </div>
+            <div class="Grid-cell u-sm-size12of12 u-md-size3of12">
+                About ISL
+            </div>
+        </div>
+        <div class="Image-location">
+            {% include 'partials/svg/isl.html' %}
         </div>
     </section>
 
