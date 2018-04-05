@@ -47,7 +47,7 @@
         "date": "APRIL 27TH, 2018 9:00 AM - 11:00 AM",
         "location": "iStrategyLabs",
         "speaker": "You!",
-        "description": "<p>Web accessibility is all of our responsibility. And it's a big role. How do we convince our bosses and clients to invest in accessibility? How do we work together across teams to build a better experience?</p><p>In our kickoff event, we'll hear from a panel of industry experts on web accessibility best practices, the role of design and development, cultural transformations, and more! Come with an appetite to learn, we'll provide bagels, coffee, and fresh fruit.</p>",
+        "description": "<p>Web accessibility is all of our responsibility. And it's a big role. How do we convince our bosses and clients to invest in accessibility? How do we work together across teams to build a better experience?</p><p>In Forefront's kickoff event, we'll hear from a panel of industry experts on web accessibility best practices, the role of design and development, cultural transformations, and more!</p><p>Come with an appetite to learn, we'll provide bagels, coffee, and fresh fruit.</p>",
         "time": "9:00 AM - 11:00 AM.",
         "photo": "",
         "link": "/event.html",
@@ -58,7 +58,7 @@
             {
                 "name": "Ted Whitehead",
                 "photo": "/static/img/speakers/ted-whitehead.jpg",
-                "bio": "Ted Whitehead is the Lead Front-End Engineer an accessibility evangelist at Threespot. During his seven years there, he’s had the opportunity to work on projects for The Pew Charitable Trusts, The Smithsonian Institution, The Brookings Institution, the Cystic Fibrosis Foundation, and many others. He’s gained a wealth of experience around coding accessible websites and demonstrating the value of accessibility to clients and colleagues. When not coding, Ted enjoys playing the piano and chasing his toddler son around the house.",
+                "bio": "Ted Whitehead is the Lead Front-End Engineer and accessibility evangelist at Threespot. During his seven years there, he’s had the opportunity to work on projects for The Pew Charitable Trusts, The Smithsonian Institution, The Brookings Institution, the Cystic Fibrosis Foundation, and many others. He’s gained a wealth of experience around coding accessible websites and demonstrating the value of accessibility to clients and colleagues. When not coding, Ted enjoys playing the piano and chasing his toddler son around the house.",
                 "website": "www.4front.io"
             },
             {
@@ -75,8 +75,8 @@
             },
             {
                 "name": "Michael Cervantes (Moderator)",
-                "photo": "/static/img/speakers/isl-logo.png",
-                "bio": "TBD",
+                "photo": "/static/img/speakers/michael_cervantes.png",
+                "bio": "Michael Cervantes is a professional front-end developer specializing in JavaScript MV* frameworks, UI Development with Backend Integration, and Web Performance Optimization.  Michael spent the first 7 years of his career as a consultant for an Austin based firm building websites using IBM tools centered around Content Management, E-Commerce, and Social software for businesses. He then worked for three years at a San Francisco based company building a tool for booking hotels and flights leveraging Ember JS. His next year long project involved working on an application used by the government to analyze and document satellite imagery. He currently works as a Senior Web Developer for ISL building a platform which allows users to learn about and join national volunteer organizations. He enjoys building exceptional web and mobile experiences with a focus on accessibility and performance.",
                 "website": "www.4front.io"
             }
         ]

@@ -20,13 +20,19 @@
 }
 
 .Dots--inline {
-    position: relative;
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
     height: 2rem;
-    width: 100%;
+    width: 98.4%;
     background-color: var(--secondary-color);
     background-image: radial-gradient(var(--primary-color) 25%, transparent 25%);
-    background-size: 12px 12px;
-    background-position: 48% 50%;
+    background-size: 10px 10px;
+    background-position: 50% 50%;
     transition: all 250ms ease-in-out;
     transition-property: top, right;
+
+    @media(--md-viewport) {
+        width: 99%;
+    }
 }
