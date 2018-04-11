@@ -28,7 +28,7 @@
                         <h1>{{ event.name|safe }}</h1>
                         <p>{{ event.description|safe }}</p>
                         <div class="u-textLeft">
-                            <a href="{{ event.ticket_link }}" class="Button" target="_blank">{{ event.ticket_text}}</a>
+                            <a href="{{ event.ticket_link }}" class="Button" target="_blank">{{ event.ticket_text|safe }}</a>
                         </div>
                     </div>
                     {% endif %}
@@ -78,7 +78,7 @@
             </div>
             <div class="Grid-cell u-sm-size12of12 u-md-size4of12">
                 <h3 class="u-light">Address</h3>
-                <div>641 S St NW<br>Washington, DC 20009</div>
+                <div>641 S St. NW<br>Washington, DC 20001</div>
                 <div><a href="https://goo.gl/maps/DGsRudtNkm72" target="_blank" class="u-light">Get Directions</a></div>
             </div>
             <div class="Grid-cell u-sm-size12of12 u-md-size4of12">
@@ -91,7 +91,7 @@
             </div>
             <div class="Grid-cell u-sm-size12of12 u-md-size4of12">
                 <h3 class="u-light">About ISL</h3>
-                <div>Set in Shaw's historic Wonderbread Factory, ISL is a yada yada yada.</div>
+                <div>Set in Shaw's historic Wonderbread Factory, ISL is an award-winning digital agency founded on invention.</div>
             </div>
         </div>
         <div class="Image-location u-mt3">
@@ -121,3 +121,7 @@
         </div>
     </footer>
 {% endblock content %}
+
+{% block javascripts %}
+{{ super() }}
+{% endblock %}
