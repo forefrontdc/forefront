@@ -1,13 +1,13 @@
 .Button {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    font-family: var(--font-times);
+    font-family: var(--font-courier);
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 9px;
     font-weight: 600;
-    font-size: 0.85rem;
-    padding: 1rem 2rem;
-    margin-top: 1rem;
+    font-size: 0.9rem;
+    padding: .75rem 3rem;
+    margin-top: 1.5rem;
     border: 3px solid var(--primary-color);
     transition: all 200ms ease-in-out;
 

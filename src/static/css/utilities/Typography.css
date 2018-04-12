@@ -11,8 +11,9 @@ h6 {
 
 h1 {
     @media(--md-viewport) {
-        font-size: 3rem;
+        font-size: 4rem;
         margin-bottom: 1rem;
+        margin-left: -.3rem;
         line-height: 1.2;
     }
 }
@@ -40,7 +41,7 @@ h3 {
 
 p {
     font-family: var(--font-courier);
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     color: var(--primary-color);
     letter-spacing: 1px;
     line-height: 1.7;

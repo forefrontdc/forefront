@@ -22,7 +22,7 @@
 
 .Event-content {
     background-color: var(--secondary-color);
-    padding: 3rem 1rem;
+    padding: 10rem 4rem;
     font-size: 14px;
     color: #898989;
     line-height: 1.6;
@@ -36,9 +36,10 @@
 
 .Event-logo {
     svg {
-        height: 3rem;
-        width: auto;
         animation: floatLogo 4s infinite;
+        height: 4rem;
+        margin-bottom: 1rem;
+        width: auto;
 
         g {
             fill: var(--primary-color);
@@ -61,10 +62,6 @@
     }
 }
 
-.Speaker {
-    color: var(--secondary-color);
-}
-
-.Speaker-bio {
+.Speaker, Speaker-bio, Location {
     color: var(--secondary-color);
 }
