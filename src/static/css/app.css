@@ -57,7 +57,7 @@ body {
 
 .Grid {
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 0;
     max-width: var(--Grid-max-width);
 
     .Grid {

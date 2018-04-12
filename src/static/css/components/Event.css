@@ -22,7 +22,7 @@
 
 .Event-content {
     background-color: var(--secondary-color);
-    padding: 10rem 4rem;
+    padding: 3rem 1rem;
     font-size: 14px;
     color: #898989;
     line-height: 1.6;
@@ -30,7 +30,7 @@
     display: flex;
 
     @media(--md-viewport) {
-        padding: 4rem 4rem 6rem;
+        padding: 10rem 4rem;
     }
 }
 

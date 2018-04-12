@@ -9,7 +9,15 @@
 .Section--secondary {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    margin: 0 1rem;
+    margin: 0 .5rem;
+
+    @media(--md-viewport) {
+        margin: 0 1rem;
+    }
+
+    @media(--lg-viewport) {
+        margin: 0 1rem;
+    }
 }
 
 .Section-image {
