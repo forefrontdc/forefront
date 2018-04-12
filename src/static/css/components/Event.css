@@ -62,6 +62,14 @@
     }
 }
 
-.Speaker, Speaker-bio, Location {
+.Speaker {
+    color: var(--secondary-color);
+}
+
+.Speaker-bio {
+    color: var(--secondary-color);
+}
+
+.Location {
     color: var(--secondary-color);
 }
