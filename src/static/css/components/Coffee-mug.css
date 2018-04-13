@@ -24,33 +24,27 @@
 @keyframes upper {
     0% {
         transform: translateY(-4px);
-        transition: all 500ms cubic-bezier(0.42, 0, 1, 1);
     }
 
     50% {
         transform: translateY(4px);
-        transition: all 500ms cubic-bezier(0.42, 0, 1, 1);
     }
 
     100% {
         transform: translateY(-4px);
-        transition: all 500ms cubic-bezier(0.42, 0, 1, 1);
     }
 }
 
 @keyframes downer {
     0% {
         transform: translateY(4px);
-        transition: all 500ms cubic-bezier(0.42, 0, 1, 1);
     }
 
     50% {
         transform: translateY(-4px);
-        transition: all 500ms cubic-bezier(0.42, 0, 1, 1);
     }
 
     100% {
         transform: translateY(4px);
-        transition: all 500ms cubic-bezier(0.42, 0, 1, 1);
     }
 }
