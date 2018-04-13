@@ -44,6 +44,10 @@
         g {
             fill: var(--primary-color);
         }
+
+        @media(--sm-only-viewport) {
+            padding-left: 2rem;
+        }
     }
 }
 
