@@ -30,7 +30,9 @@
     display: flex;
 
     @media(--sm-only-viewport) {
-        line-height:2rem;
+        h1 {
+            line-height: 2rem;
+        }
     }
 
     @media(--md-viewport) {
