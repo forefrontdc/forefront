@@ -63,20 +63,4 @@ body {
     .Grid {
         padding: 0;
     }
-
-    .Grid-cell {
-        padding: 0;
-
-        @media(--md-viewport) {
-            &:nth-child(odd) {
-                padding-right: 2rem;
-            }
-        }
-
-        @media(--lg-viewport) {
-            &:nth-child(odd) {
-                padding-right: 2rem;
-            }
-        }
-    }
 }
