@@ -29,6 +29,10 @@
     border: 3px solid var(--primary-color);
     display: flex;
 
+    @media(--sm-only-viewport) {
+        line-height:2rem;
+    }
+
     @media(--md-viewport) {
         padding: 10rem 4rem;
 
