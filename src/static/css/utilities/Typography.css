@@ -11,9 +11,8 @@ h6 {
 
 h1 {
     @media(--md-viewport) {
-        font-size: 4rem;
+        font-size: 3rem;
         margin-bottom: 1rem;
-        margin-left: -.3rem;
         line-height: 1.2;
     }
 }
