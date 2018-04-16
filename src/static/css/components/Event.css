@@ -31,11 +31,11 @@
 
     @media(--md-viewport) {
         padding: 10rem 4rem;
-    }
 
-    h1 {
-        font-size: 4rem;
-        margin-left: -.3rem;
+        h1 {
+            font-size: 4rem;
+            margin-left: -.3rem;
+        }
     }
 }
 
