@@ -10,6 +10,10 @@
     @media(--lg-viewport) {
         margin: 0 1rem 1rem 1rem;
     }
+
+    svg {
+        height: 6rem;
+    }
 }
 
 .Footer-item {

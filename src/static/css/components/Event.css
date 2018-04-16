@@ -34,10 +34,20 @@
     }
 }
 
+.Event-register {
+    text-align: center;
+    @media(--md-viewport) {
+        text-align: left;
+    }
+    @media(--lg-viewport) {
+        text-align: left;
+    }
+}
+
 .Event-logo {
     svg {
         animation: floatLogo 4s infinite;
-        height: 4rem;
+        height: 6rem;
         margin-bottom: 1rem;
         width: auto;
 
