@@ -1,5 +1,6 @@
 .Coffee-mug {
     fill: var(--primary-color);
+    width: 100%;
 }
 
 #speech_1_,

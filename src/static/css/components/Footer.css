@@ -1,14 +1,11 @@
 .Footer {
     border: 3px solid var(--primary-color);
     margin: 0 .5rem 1rem .5rem;
-    padding: 3rem 2rem 0 2rem;
+    padding: 3rem 2rem;
 
     @media(--md-viewport) {
         margin: 0 1rem 1rem 1rem;
-    }
-
-    @media(--lg-viewport) {
-        margin: 0 1rem 1rem 1rem;
+        padding: 3rem 2rem 2rem;
     }
 
     svg {

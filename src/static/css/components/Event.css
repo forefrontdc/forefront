@@ -46,12 +46,10 @@
 }
 
 .Event-register {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     @media(--md-viewport) {
-        text-align: left;
-    }
-    @media(--lg-viewport) {
-        text-align: left;
+        justify-content: flex-start;
     }
 }
 
