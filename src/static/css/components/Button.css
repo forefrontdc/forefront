@@ -6,7 +6,7 @@
     letter-spacing: 9px;
     font-weight: 600;
     font-size: 0.9rem;
-    padding: .75rem 3rem;
+    padding: .75rem 2rem;
     margin-top: 1.5rem;
     border: 3px solid var(--primary-color);
     transition: all 200ms ease-in-out;
@@ -20,4 +20,8 @@
         background-color: var(--secondary-color);
         color: var(--primary-color);
     }
+}
+
+.Button--left {
+    text-align: left;
 }
