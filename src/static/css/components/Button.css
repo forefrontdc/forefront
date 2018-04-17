@@ -10,6 +10,7 @@
     margin-top: 1.5rem;
     border: 3px solid var(--primary-color);
     transition: all 200ms ease-in-out;
+    text-align: left;
 
     @media(--md-viewport) {
         padding: 1.25rem 3rem;
@@ -20,8 +21,4 @@
         background-color: var(--secondary-color);
         color: var(--primary-color);
     }
-}
-
-.Button--left {
-    text-align: left;
 }

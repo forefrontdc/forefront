@@ -28,7 +28,7 @@
                         <h1>{{ event.name|safe }}</h1>
                         <p>{{ event.description|safe }}</p>
                         <div class="Event-register">
-                            <a href="{{ event.ticket_link }}" class="Button Button--left" target="_blank">{{ event.ticket_text|safe }}</a>
+                            <a href="{{ event.ticket_link }}" class="Button" target="_blank">{{ event.ticket_text|safe }}</a>
                         </div>
                     </div>
                     {% endif %}
