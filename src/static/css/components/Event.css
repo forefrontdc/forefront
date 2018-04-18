@@ -106,11 +106,5 @@
                 padding-right: 2rem;
             }
         }
-
-        @media(--lg-viewport) {
-            &:nth-child(odd) {
-                padding-right: 2rem;
-            }
-        }
     }
 }
