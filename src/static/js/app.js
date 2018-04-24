@@ -43,13 +43,12 @@ function changeColor() {
   document.body.style.setProperty('--secondary-color', colorList[randomColor].color2)
 }
 
-window.onload = function(e){
-  // document.addEventListener('DOMContentLoaded', function(e) {
-    const btn = document.getElementById('colorpicker')
-    changeColor()
-    btn.addEventListener('click', function(){
-      changeColor()
-    })
-  }
-  console.log('Interested in speaking at our next event? Email hello@4front.io for details (:')
+// make this global -- run it immediately inside the <body>
+window.changeColor = changeColor;
 
+document.addEventListener('DOMContentLoaded', function(e) {
+  const btn = document.getElementById('colorpicker');
+  btn.addEventListener('click', changeColor);
+});
+
+console.log('Interested in speaking at our next event? Email hello@4front.io for details (:');
