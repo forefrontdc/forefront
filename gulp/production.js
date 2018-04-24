@@ -13,7 +13,7 @@ const BANNER = fs.readFileSync('banner.txt', 'utf8').replace('@date', (new Date(
 
 
 gulp.task('rev', () =>
-  gulp.src(['public/**/*', '!**/*.html', '!**/*.txt', '!**/*.ico'])
+  gulp.src(['public/**/*', '!**/*.html', '!**/*.txt', '!**/*.ico', '!**/*.jpg'])
     .pipe(rev())
     .pipe(gulp.dest('public/'))
     .pipe(rev.manifest())
