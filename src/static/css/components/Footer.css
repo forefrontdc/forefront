@@ -1,6 +1,6 @@
 .Footer {
     border: 3px solid var(--primary-color);
-    margin: 0 .5rem 1rem .5rem;
+    margin: 0 0.5rem 1rem 0.5rem;
     padding: 3rem 2rem;
 
     @media(--md-viewport) {

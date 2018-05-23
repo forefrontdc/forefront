@@ -6,8 +6,7 @@
 #speech_1_,
 #devtools_1_,
 #nail_1_,
-#files_1_
-{
+#files_1_ {
     animation: upper var(--steam-durration) infinite;
 }
 
@@ -16,8 +15,7 @@
 #pointer_1_,
 #Paint_1_,
 #hammer_1_,
-#pencil_1_
-{
+#pencil_1_ {
     animation: downer var(--steam-durration) infinite;
 }
 
