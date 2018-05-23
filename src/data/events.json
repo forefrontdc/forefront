@@ -47,13 +47,13 @@
         "date": "APRIL 27TH, 2018 9:00 AM - 11:00 AM",
         "location": "ISL (iStrategyLabs)",
         "speaker": "You!",
-        "description": "<p>Ensuring web accessibility is a critical responsibility we all share.</p><p>The Question: How do we convince our bosses and clients to invest in accessibility? How do we work together across teams to build a usable experience for everyone?</p><p>What We'll Discuss: In Fore_Front's kickoff event, we'll hear from a panel of industry experts on web accessibility best practices, the role of design and development, cultural transformations and impacts on accessibility, and much more!</p><p>Yes, There's Food: Come with an appetite to learn, we'll provide bagels, coffee, and fresh fruit.</p>",
+        "description": "<p>Ensuring web accessibility is a critical responsibility we all share.</p><p>The Question: How do we convince our bosses and clients to invest in accessibility? How do we work together across teams to build a usable experience for everyone?</p><p>What We Discussed: In Fore_Front's kickoff event, we heard from a panel of industry experts on web accessibility best practices, the role of design and development, cultural transformations and impacts on accessibility, and much more!</p>",
         "time": "9:00 AM - 11:00 AM.",
         "photo": "",
         "link": "/event.html",
         "link_text": "Learn More",
         "ticket_link": "https://www.eventbrite.com/e/everyones-internet-web-accessibility-panel-tickets-45070093864",
-        "ticket_text": "Register",
+        "ticket_text": "",
         "speakers": [
             {
                 "name": "Ted Whitehead",
