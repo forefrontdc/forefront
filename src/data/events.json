@@ -80,6 +80,28 @@
                 "website": "www.4front.io"
             }
         ]
+    },
+    {
+        "slug": "performance",
+        "name": "This is What Peak Performance Looks Like",
+        "date": "JULY 25TH, 2018 9:00 AM - 11:00 AM",
+        "location": "ISL (iStrategyLabs)",
+        "speaker": "You!",
+        "description": "<p>When a website or app just works, the user experience can feel like a native app - intuitive, seamless, and usable. When it doesn't work, the experience becomes, well, the opposite – it's slow, inaccessible, and frustrating. If it's really bad, users might run the other direction and never return.</p><p>In Fore_Front's second event, Eli Fitch will speak on the user's subjective experience of web performance and how designers and front-end developers can improve user experience through technology and the psychology of waiting.</p>",
+        "time": "9:00 AM - 11:00 AM.",
+        "photo": "",
+        "link": "/event.html",
+        "link_text": "Learn More",
+        "ticket_link": "#",
+        "ticket_text": "",
+        "speakers": [
+            {
+                "name": "Eli Fitch",
+                "photo": "/static/img/speakers/eli-fitch.jpg",
+                "bio": "Eli Fitch is a front end developer with a passion for web performance, animation and all things 3D. He works on creative tools to empower designers and developers to make expressive, interactive maps at Mapbox, a startup in his hometown of Washington, DC. He also started the DC CodePen Meetup, and dabbles in design, 3D art & game development. When not sat in front of a computer, he tends to his perpetually broken stable of 70s motorcycles and attempts to restart a former career as a pro-am racing driver.",
+                "website": "http://eli.wtf/"
+            }
+        ]
     }
   ]
 }
