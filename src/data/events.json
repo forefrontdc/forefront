@@ -1,47 +1,6 @@
 {
 "events": [
     {
-        "slug": "code",
-        "name": "Code",
-        "date": "",
-        "location": "",
-        "speaker": "",
-        "description": "Ramp up your front end skills. They can only get better. Speakers drop knowledge, you leave inspired. It’s that simple. Revel in the live code examples and thoughtful conversations.",
-        "time": "8:00 AM - 10:00 AM",
-        "photo": "",
-        "link": "https://www.eventbrite.com",
-        "link_text": "Get tickets",
-        "ticket_link": "",
-        "ticket_text": ""
-    },
-    {
-        "slug": "connect",
-        "name": "Connect",
-        "date": "",
-        "location": "",
-        "speaker": "",
-        "description": "Network with like-minded professionals in the industry. Leverage Fore_Front’s inclusive atmosphere to build friendships, partnerships, and mentorships.",
-        "time": "",
-        "link": "https://www.eventbrite.com",
-        "link_text": "Get tickets",
-        "ticket_link": "",
-        "ticket_text": ""
-    },
-    {
-        "slug": "caffeinate",
-        "name": "Caffeinate",
-        "date": "",
-        "location": "",
-        "speaker": "",
-        "description": "But first and foremost, coffee. You bring the enthusiasm, we’ll provide caffeine (and bagels... So. Many. Bagels).",
-        "time": "",
-        "photo": "",
-        "link": "https://www.eventbrite.com",
-        "link_text": "Get tickets",
-        "ticket_link": "",
-        "ticket_text": ""
-    },
-    {
         "slug": "web-accessibility",
         "name": "Everyone's Internet:<br>Web Accessibility Panel",
         "date": "APRIL 27TH, 2018 9:00 AM - 11:00 AM",

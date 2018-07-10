@@ -1,0 +1,19 @@
+{
+"about": [
+    {
+        "slug": "code",
+        "name": "Code",
+        "description": "Ramp up your front end skills. They can only get better. Speakers drop knowledge, you leave inspired. It’s that simple. Revel in the live code examples and thoughtful conversations."
+    },
+    {
+        "slug": "connect",
+        "name": "Connect",
+        "description": "Network with like-minded professionals in the industry. Leverage Fore_Front’s inclusive atmosphere to build friendships, partnerships, and mentorships."
+    },
+    {
+        "slug": "caffeinate",
+        "name": "Caffeinate",
+        "description": "But first and foremost, coffee. You bring the enthusiasm, we’ll provide caffeine (and bagels... So. Many. Bagels)."
+    }
+  ]
+}

@@ -12,6 +12,7 @@ import stylelintConfig from '../stylelint.config'
 import projectConfig from '../config'
 
 const events = require('../src/data/events.json')
+const about = require('../src/data/about.json')
 export const EXTRAS_GLOB = 'src/**/*.{txt,json,xml,ico,jpeg,jpg,png,gif,svg,ttf,otf,eot,woff,woff2,mp3,mp4,ogv,ogg,webm}'
 
 gulp.task('clean', () => del('public/'))
