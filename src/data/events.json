@@ -42,17 +42,17 @@
     },
     {
         "slug": "performance",
-        "name": "This is What Peak Performance Looks Like",
+        "name": "Perceived Web Performance: The Only Kind That Really Matters",
         "date": "JULY 25TH, 2018 9:00 AM - 11:00 AM",
         "location": "ISL (iStrategyLabs)",
         "speaker": "You!",
-        "description": "<p>When a website or app just works, the user experience can feel like a native app - intuitive, seamless, and usable. When it doesn't work, the experience becomes, well, the opposite – it's slow, inaccessible, and frustrating. If it's really bad, users might run the other direction and never return.</p><p>In Fore_Front's second event, Eli Fitch will speak on the user's subjective experience of web performance and how designers and front-end developers can improve user experience through technology and the psychology of waiting.</p>",
+        "description": "<p>When a website or app just works, the user experience can feel like a native app – intuitive, seamless, and usable. When it doesn&lsquo;t work, the experience becomes, well, the opposite – it&lsquo;s slow, inaccessible, and frustrating. If it&lsquo;s really bad, users might run the other direction and never return.</p><p>In Fore_Front&lsquo;s second event, featured speaker Eli Fitch will show us how to leverage perceived performance – that is, how the user thinks the site is performing – to make better web experiences. Using the backdrop of human psychology and innate perceptions of time, Eli will unveil tips and tricks to manage perceived loading time (and more).</p><p>Before Eli takes the stage, four devs will present their lightning talks.<br><ul><li>&ldquo;Flocc: An Agent-Based Modeling Framework in JavaScript&rdquo; by Scott Donaldson</li><li>&ldquo;Understanding Javascript Selectors With and Without Reselect&rdquo; by Pearl McPhee</li><li>&ldquo;Automated Accessibility Testing&rdquo; by Alex Barbato</li><li>&ldquo;How to Say Anything&rdquo; by Valerie Woolard Srinivasan</li></ul></p><p>All of this, plus bagels and coffee. You won&lsquo;t want to miss it.</p>",
         "time": "9:00 AM - 11:00 AM.",
         "photo": "",
         "link": "/event.html",
         "link_text": "Learn More",
-        "ticket_link": "#",
-        "ticket_text": "",
+        "ticket_link": "https://www.eventbrite.com/e/perceived-web-performance-the-only-kind-that-really-matters-tickets-48218683380",
+        "ticket_text": "Get Your Ticket",
         "speakers": [
             {
                 "name": "Eli Fitch",

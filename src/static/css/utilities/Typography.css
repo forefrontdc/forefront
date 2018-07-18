@@ -51,6 +51,22 @@ p {
     }
 }
 
+li {
+    font-family: var(--font-courier);
+    font-size: 0.9rem;
+    color: var(--primary-color);
+    letter-spacing: 1px;
+    line-height: 1.7;
+    margin: 0 0 0 2rem;
+    list-style-type: circle;
+    list-style-position: outside;
+
+    @media(--md-viewport) {
+        line-height: 2;
+        margin: 0 0 0 4rem;
+    }
+}
+
 .u-strikethrough {
     position: relative;
 
