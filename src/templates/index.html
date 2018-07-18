@@ -42,7 +42,7 @@
                         <div class="Corner-inside--small"></div>
                     </div>
 
-                    <p class="FeaturedEvent-label">Previous_Event</p>
+                    <p class="FeaturedEvent-label">Upcoming_Event</p>
 
                     {% for event in events.events %}
                     {% if loop.last %}
@@ -71,19 +71,17 @@
                 <div class="u-textCenter">
                     <h2 class="u-light">Fore_Front Follows The 3 C’s</h2>
 
-                    {% for event in events.events %}
-                    {% if not loop.last %}
+                    {% for a in about.about %}
                         <div class="Accordion">
-                          <input id="Accordion-{{event.slug}}" type="checkbox" name="tabs">
-                          <label for="Accordion-{{event.slug}}">{{ event.name }}</label>
+                          <input id="Accordion-{{a.slug}}" type="checkbox" name="tabs">
+                          <label for="Accordion-{{a.slug}}">{{ a.name }}</label>
                           <div class="Accordion-content">
-                            {% if event.date and event.location %}
-                            <p>{{ event.date }} | @{{ event.location }}</p>
+                            {% if a.date and a.location %}
+                            <p>{{ a.date }} | @{{ a.location }}</p>
                             {% endif %}
-                            <p>{{ event.description }}</p>
+                            <p>{{ a.description }}</p>
                           </div>
                         </div>
-                    {% endif %}
                     {% endfor %}
                 </div>
             </div>

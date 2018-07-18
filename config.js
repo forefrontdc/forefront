@@ -1,5 +1,6 @@
 const convict = require('convict')
 const events = require('./src/data/events.json')
+const about = require('./src/data/about.json')
 
 const config = convict({
   env: {
@@ -8,7 +9,8 @@ const config = convict({
     default: 'development',
     env: 'NODE_ENV'
   },
-  events
+  events,
+  about
 })
 
 // Load environment dependent configuration if desired

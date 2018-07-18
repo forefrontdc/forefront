@@ -1,47 +1,6 @@
 {
 "events": [
     {
-        "slug": "code",
-        "name": "Code",
-        "date": "",
-        "location": "",
-        "speaker": "",
-        "description": "Ramp up your front end skills. They can only get better. Speakers drop knowledge, you leave inspired. It’s that simple. Revel in the live code examples and thoughtful conversations.",
-        "time": "8:00 AM - 10:00 AM",
-        "photo": "",
-        "link": "https://www.eventbrite.com",
-        "link_text": "Get tickets",
-        "ticket_link": "",
-        "ticket_text": ""
-    },
-    {
-        "slug": "connect",
-        "name": "Connect",
-        "date": "",
-        "location": "",
-        "speaker": "",
-        "description": "Network with like-minded professionals in the industry. Leverage Fore_Front’s inclusive atmosphere to build friendships, partnerships, and mentorships.",
-        "time": "",
-        "link": "https://www.eventbrite.com",
-        "link_text": "Get tickets",
-        "ticket_link": "",
-        "ticket_text": ""
-    },
-    {
-        "slug": "caffeinate",
-        "name": "Caffeinate",
-        "date": "",
-        "location": "",
-        "speaker": "",
-        "description": "But first and foremost, coffee. You bring the enthusiasm, we’ll provide caffeine (and bagels... So. Many. Bagels).",
-        "time": "",
-        "photo": "",
-        "link": "https://www.eventbrite.com",
-        "link_text": "Get tickets",
-        "ticket_link": "",
-        "ticket_text": ""
-    },
-    {
         "slug": "web-accessibility",
         "name": "Everyone's Internet:<br>Web Accessibility Panel",
         "date": "APRIL 27TH, 2018 9:00 AM - 11:00 AM",
@@ -78,6 +37,28 @@
                 "photo": "/static/img/speakers/michael_cervantes.png",
                 "bio": "Michael Cervantes is a professional front-end developer specializing in JavaScript MVC frameworks, UI Development with Backend Integration, and Web Performance Optimization.  Michael spent the first 7 years of his career as a consultant for an Austin based firm building websites using IBM tools centered around Content Management, E-Commerce, and Social software for businesses. He then worked for three years at a San Francisco based company building a tool for booking hotels and flights.  He currently works as a Senior Web Developer for ISL building a platform which allows users to learn about and join national volunteer organizations.",
                 "website": "www.4front.io"
+            }
+        ]
+    },
+    {
+        "slug": "performance",
+        "name": "Perceived Web Performance: The Only Kind That Really Matters",
+        "date": "JULY 25TH, 2018 9:00 AM - 11:00 AM",
+        "location": "ISL (iStrategyLabs)",
+        "speaker": "You!",
+        "description": "<p>When a website or app just works, the user experience can feel like a native app – intuitive, seamless, and usable. When it doesn&lsquo;t work, the experience becomes, well, the opposite – it&lsquo;s slow, inaccessible, and frustrating. If it&lsquo;s really bad, users might run the other direction and never return.</p><p>In Fore_Front&lsquo;s second event, featured speaker Eli Fitch will show us how to leverage perceived performance – that is, how the user thinks the site is performing – to make better web experiences. Using the backdrop of human psychology and innate perceptions of time, Eli will unveil tips and tricks to manage perceived loading time (and more).</p><p>Before Eli takes the stage, four devs will present their lightning talks.<br><ul><li>&ldquo;Flocc: An Agent-Based Modeling Framework in JavaScript&rdquo; by Scott Donaldson</li><li>&ldquo;Understanding Javascript Selectors With and Without Reselect&rdquo; by Pearl McPhee</li><li>&ldquo;Automated Accessibility Testing&rdquo; by Alex Barbato</li><li>&ldquo;How to Say Anything&rdquo; by Valerie Woolard Srinivasan</li></ul></p><p>All of this, plus bagels and coffee. You won&lsquo;t want to miss it.</p>",
+        "time": "9:00 AM - 11:00 AM.",
+        "photo": "",
+        "link": "/event.html",
+        "link_text": "Learn More",
+        "ticket_link": "https://www.eventbrite.com/e/perceived-web-performance-the-only-kind-that-really-matters-tickets-48218683380",
+        "ticket_text": "Get Your Ticket",
+        "speakers": [
+            {
+                "name": "Eli Fitch",
+                "photo": "/static/img/speakers/eli-fitch.jpg",
+                "bio": "Eli Fitch is a front end developer with a passion for web performance, animation and all things 3D. He works on creative tools to empower designers and developers to make expressive, interactive maps at Mapbox, a startup in his hometown of Washington, DC. He also started the DC CodePen Meetup, and dabbles in design, 3D art & game development. When not sat in front of a computer, he tends to his perpetually broken stable of 70s motorcycles and attempts to restart a former career as a pro-am racing driver.",
+                "website": "http://eli.wtf/"
             }
         ]
     }
