@@ -61,6 +61,20 @@
                 "website": "http://eli.wtf/"
             }
         ]
+    },
+    {
+        "slug": "fear_front",
+        "name": "Fear_Front",
+        "date": "OCTOBER 31ST, 2018 9:00 AM - 11:00 AM",
+        "location": "ISL (iStrategyLabs)",
+        "speaker": "You!",
+        "description": "<p>HTML and CSS and Javascript, oh my!</p><p>In Fore_Front&rsquo;s third event, we'll be exploring the topics that scare us the most when it comes to front-end development.</p><p>More info coming soon!</p>",
+        "time": "9:00 AM - 11:00 AM.",
+        "photo": "",
+        "link": "mailto:hello@4front.io",
+        "link_text": "Interested in speaking?",
+        "ticket_link": "",
+        "ticket_text": ""
     }
   ]
 }
