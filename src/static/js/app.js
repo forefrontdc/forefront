@@ -53,6 +53,12 @@ function changeColor() {
 
   document.body.style.setProperty('--primary-color', colorList[randomColor].color1)
   document.body.style.setProperty('--secondary-color', colorList[randomColor].color2)
+
+  bats.forEach(bat => {
+    bat.src = document.body.style.getPropertyValue('--secondary-color') === '#000' ?
+      '/static/img/bats/bat-orange.gif' :
+      '/static/img/bats/bat-black.gif';
+  })
 }
 
 // make this global -- run it immediately inside the <body>
@@ -61,7 +67,56 @@ window.changeColor = changeColor;
 document.addEventListener('DOMContentLoaded', function(e) {
   const btn = document.getElementById('colorpicker');
   btn.addEventListener('click', changeColor);
+
+  let i = 0;
+  while (i < 5) {
+    MAKE_A_SUPER_SPOOKY_BAT();
+    i++;
+  }
 });
 
 console.log('Interested in speaking at our next event? Email hello@4front.io for details (:');
 
+const bats = [];
+
+function MAKE_A_SUPER_SPOOKY_BAT() {
+  var r = Math.random,
+      n = 0,
+      d = document,
+      w = window,
+      i = d.createElement('img'),
+      z = d.createElement('div'),
+      zs = z.style,
+      a = w.innerWidth * r(),
+      b = w.innerHeight * r();
+  zs.position = "fixed";
+  zs.left = 0;
+  zs.top = 0;
+  zs.opacity = 0;
+  zs.zIndex = 9999;
+  z.appendChild(i);
+  bats.push(i);
+  i.src = document.body.style.getPropertyValue('--secondary-color') === '#000' ?
+    '/static/img/bats/bat-orange.gif' :
+    '/static/img/bats/bat-black.gif';
+  d.body.appendChild(z);
+
+  function R(o, m) {
+      return Math.max(Math.min(o + (r() - .5) * 400, m - 50), 50)
+  }
+
+  function A() {
+      var x = R(a, w.innerWidth),
+          y = R(b, w.innerHeight),
+          d = 5 * Math.sqrt((a - x) * (a - x) + (b - y) * (b - y));
+      zs.opacity = n;
+      n = 1;
+      zs.transition = zs.webkitTransition = d / 1e3 + 's linear';
+      zs.transform = zs.webkitTransform = 'translate(' + x + 'px,' + y + 'px)';
+      i.style.transform = i.style.webkitTransform = (a > x) ? '' : 'scaleX(-1)';
+      a = x;
+      b = y;
+      setTimeout(A, d);
+  };
+  setTimeout(A, r() * 3e3);
+}
