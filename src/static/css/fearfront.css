@@ -1,0 +1,5 @@
+.battybat {
+    background-image: var(--bat-src);
+    height: 40px;
+    width: 40px;
+}

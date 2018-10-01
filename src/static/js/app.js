@@ -1,15 +1,23 @@
+const BLACK = '#000';
+const ORANGE = '#ef6e13';
+const ORANGE_DARK = '#ce5801';
+const MARISSAPURPLE = '#881ee4';
+
 const colorList = [
   {
-    color1: '#000',
-    color2: '#ef6e13'
+    color1: BLACK,
+    color2: ORANGE,
+    bat: 'url(/static/img/bats/bat-black.gif)'
   },
   {
-    color1: '#ce5801',
-    color2: '#000'
+    color1: ORANGE_DARK,
+    color2: BLACK,
+    bat: 'url(/static/img/bats/bat-purple.gif)'
   },
   {
-    color1: '#881ee4',
-    color2: '#000'
+    color1: MARISSAPURPLE,
+    color2: BLACK,
+    bat: 'url(/static/img/bats/bat-orange.gif)'
   },
   // {
   //   color1: '#FEFFD3',
@@ -51,14 +59,9 @@ function changeColor() {
 
   localStorage.setItem('lastColor', randomColor)
 
-  document.body.style.setProperty('--primary-color', colorList[randomColor].color1)
-  document.body.style.setProperty('--secondary-color', colorList[randomColor].color2)
-
-  bats.forEach(bat => {
-    bat.src = document.body.style.getPropertyValue('--secondary-color') === '#000' ?
-      '/static/img/bats/bat-orange.gif' :
-      '/static/img/bats/bat-black.gif';
-  })
+  document.body.style.setProperty('--primary-color', colorList[randomColor].color1);
+  document.body.style.setProperty('--secondary-color', colorList[randomColor].color2);
+  document.body.style.setProperty('--bat-src', colorList[randomColor].bat);
 }
 
 // make this global -- run it immediately inside the <body>
@@ -69,22 +72,20 @@ document.addEventListener('DOMContentLoaded', function(e) {
   btn.addEventListener('click', changeColor);
 
   let i = 0;
-  while (i < 5) {
-    MAKE_A_SUPER_SPOOKY_BAT();
+  while (i < 10) {
+    OH_MY_GOD_ITS_A_BAT();
     i++;
   }
 });
 
 console.log('Interested in speaking at our next event? Email hello@4front.io for details (:');
 
-const bats = [];
-
-function MAKE_A_SUPER_SPOOKY_BAT() {
+function OH_MY_GOD_ITS_A_BAT() {
   var r = Math.random,
       n = 0,
       d = document,
       w = window,
-      i = d.createElement('img'),
+      i = d.createElement('div'),
       z = d.createElement('div'),
       zs = z.style,
       a = w.innerWidth * r(),
@@ -95,10 +96,7 @@ function MAKE_A_SUPER_SPOOKY_BAT() {
   zs.opacity = 0;
   zs.zIndex = 9999;
   z.appendChild(i);
-  bats.push(i);
-  i.src = document.body.style.getPropertyValue('--secondary-color') === '#000' ?
-    '/static/img/bats/bat-orange.gif' :
-    '/static/img/bats/bat-black.gif';
+  i.classList.add('battybat');
   d.body.appendChild(z);
 
   function R(o, m) {

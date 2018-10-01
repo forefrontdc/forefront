@@ -17,6 +17,8 @@
 @import 'utilities/Typography';
 @import 'utilities/Utilities';
 
+@import 'fearfront';
+
 @import '_help'; /* remove this helpfile once not needed anymore */
 
 /* custom media queries */
