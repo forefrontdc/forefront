@@ -64,17 +64,25 @@
     },
     {
         "slug": "fear_front",
-        "name": "Fear_Front",
+        "name": "Fear_Front: A Spook-tacular Front-End Extravaganza",
         "date": "OCTOBER 31ST, 2018 9:00 AM - 11:00 AM",
         "location": "ISL (iStrategyLabs)",
         "speaker": "You!",
-        "description": "<p>HTML and CSS and Javascript, oh my!</p><p>In Fore_Front&rsquo;s third event, we'll be exploring the topics that scare us the most when it comes to front-end development.</p><p>More info coming soon!</p>",
+        "description": "<p>When it comes to front-end, there's plenty to be afraid of – validation states, forgotten semi-colons, missing media queries, oh my! In Fore_Front’s third event, we'll explore tricks and treatments to address problems that all front-enders share.</p><p>There will be coffee, candy, and a costume contest.</p>",
         "time": "9:00 AM - 11:00 AM.",
         "photo": "",
-        "link": "mailto:hello@4front.io",
-        "link_text": "Interested in speaking?",
-        "ticket_link": "",
-        "ticket_text": ""
+        "link": "/event.html",
+        "link_text": "Learn More",
+        "ticket_link": "https://www.eventbrite.com/e/fear-front-a-spook-tacular-front-end-extravaganza-tickets-50969524219",
+        "ticket_text": "Get Your Ticket",
+        "speakers": [
+            {
+                "name": "Ali Spittel",
+                "photo": "/static/img/speakers/ali_spittel.jpg",
+                "bio": "Ali teaches people how to code at General Assembly. Before that, she was a software engineer working on data science web apps. She loves Python, JavaScript, and talking about code. She is most interested in the intersection of code, art, and social justice. When Ali's not working, you can find her watching New England sports, competing on CodeWars, taking runs around Capitol Hill, rock climbing, or participating in DC coding community events. Ali's current personal project is a blog called The Zen of Programming where she learns talks about code and her life surrounding it.",
+                "website": "https://www.alispit.tel/"
+            }
+        ]
     }
   ]
 }
