@@ -81,6 +81,18 @@
                 "photo": "/static/img/speakers/ali_spittel.jpg",
                 "bio": "Ali teaches people how to code at General Assembly. Before that, she was a software engineer working on data science web apps. She loves Python, JavaScript, and talking about code. She is most interested in the intersection of code, art, and social justice. When Ali's not working, you can find her watching New England sports, competing on CodeWars, taking runs around Capitol Hill, rock climbing, or participating in DC coding community events. Ali's current personal project is a blog called The Zen of Programming where she learns talks about code and her life surrounding it.",
                 "website": "https://www.alispit.tel/"
+            },
+            {
+                "name": "Marc Laughton",
+                "photo": "/static/img/speakers/marc_laughton.jpg",
+                "bio": "ISL web developer. Reader of esoteric CS research papers. Death metal connoisseur. Poetry instructor in a past life. Poodle parent. Marc Laughton is a passionate full-stack engineer. He loves working across languages (Python, JavaScript, Clojure, Haskell, and Rust, to name a few favorites) to solve problems with elegance and efficiency. Above all, he cares deeply about the democratization of emerging tech, and securing a future where development is taught, learned, and practiced by all people, regardless of status.",
+                "website": "https://www.alispit.tel/"
+            },
+            {
+                "name": "Tiffanie Johnson",
+                "photo": "/static/img/speakers/tiffanie_johnson.jpg",
+                "bio": "By day, a web developer at ISL, crafting platforms and apps for global non-profits and fortune 500 companies. By night, the world's biggest DC sports fan. Tiffanie received degrees in mathematics and electrical engineering from George Mason before finding her calling at the front lines of front end. The only things she loves more than code are Max Scherzer, her dog Fitz, and The Office.",
+                "website": ""
             }
         ]
     }
