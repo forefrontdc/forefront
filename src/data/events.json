@@ -86,12 +86,24 @@
                 "name": "Marc Laughton",
                 "photo": "/static/img/speakers/marc_laughton.jpg",
                 "bio": "ISL web developer. Reader of esoteric CS research papers. Death metal connoisseur. Poetry instructor in a past life. Poodle parent. Marc Laughton is a passionate full-stack engineer. He loves working across languages (Python, JavaScript, Clojure, Haskell, and Rust, to name a few favorites) to solve problems with elegance and efficiency. Above all, he cares deeply about the democratization of emerging tech, and securing a future where development is taught, learned, and practiced by all people, regardless of status.",
-                "website": "https://www.alispit.tel/"
+                "website": ""
             },
             {
                 "name": "Tiffanie Johnson",
                 "photo": "/static/img/speakers/tiffanie_johnson.jpg",
                 "bio": "By day, a web developer at ISL, crafting platforms and apps for global non-profits and fortune 500 companies. By night, the world's biggest DC sports fan. Tiffanie received degrees in mathematics and electrical engineering from George Mason before finding her calling at the front lines of front end. The only things she loves more than code are Max Scherzer, her dog Fitz, and The Office.",
+                "website": ""
+            },
+            {
+                "name": "Tracy King",
+                "photo": "/static/img/speakers/tracy_king.jpg",
+                "bio": "Tracy is a Front End Engineer at Crowdskout who loves Angular and long walks on the beach. She is also a Lead for Women Who Code and is passionate about making tech a more inclusive, accessible space. When she's not at the Crowdskout office she's probably watching The Office, cuddling with her dogs, hiking, reading for book club, or indulging her arts and crafts obsession.",
+                "website": ""
+            },
+            {
+                "name": "Josh Strupp",
+                "photo": "/static/img/speakers/josh_strupp.jpg",
+                "bio": "Marketing director. Entrepreneur. Hobbyist designer and developer. Hot sauce snob. Josh Strupp is a true Internet native, starting his career in the “digital dark arts” with his own digital media company. For years, he managed hundreds of writers and social strategists, oversaw product design and branding, and managed national and local marketing efforts. At ISL, Josh manages integrated marketing efforts, supports business development initiatives, and works closely with the engineering team to build emerging technology products.",
                 "website": ""
             }
         ]
