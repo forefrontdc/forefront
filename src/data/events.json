@@ -11,7 +11,7 @@
         "photo": "",
         "link": "/event.html",
         "link_text": "Learn More",
-        "ticket_link": "https://www.eventbrite.com/e/everyones-internet-web-accessibility-panel-tickets-45070093864",
+        "ticket_link": "",
         "ticket_text": "",
         "speakers": [
             {
@@ -51,8 +51,8 @@
         "photo": "",
         "link": "/event.html",
         "link_text": "Learn More",
-        "ticket_link": "https://www.eventbrite.com/e/perceived-web-performance-the-only-kind-that-really-matters-tickets-48218683380",
-        "ticket_text": "Get Your Ticket",
+        "ticket_link": "",
+        "ticket_text": "",
         "speakers": [
             {
                 "name": "Eli Fitch",
@@ -73,8 +73,8 @@
         "photo": "",
         "link": "/event.html",
         "link_text": "Learn More",
-        "ticket_link": "https://www.eventbrite.com/e/fear-front-a-spook-tacular-front-end-extravaganza-tickets-50969524219",
-        "ticket_text": "Get Your Ticket",
+        "ticket_link": "",
+        "ticket_text": "",
         "speakers": [
             {
                 "name": "Ali Spittel",

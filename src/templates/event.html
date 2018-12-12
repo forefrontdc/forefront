@@ -7,7 +7,7 @@
         </div>
         <div class="Hero-colorpicker">
             <a href="#" class="ga-color-picker" id="colorpicker">
-                {% include 'partials/svg/pumpkin.html' %}
+                {% include 'partials/svg/color-picker.html' %}
             </a>
         </div>
         <div class="Corner-wrapper">
@@ -29,7 +29,7 @@
                         <p>{{ event.description|safe }}</p>
                         {% if event.ticket_text %}
                         <div class="Event-register">
-                            <!-- <a href="{{ event.ticket_link }}" class="Button" target="_blank">{{ event.ticket_text|safe }}</a> -->
+                            <a href="{{ event.ticket_link }}" class="Button" target="_blank">{{ event.ticket_text|safe }}</a>
                         </div>
                         {% endif %}
                     </div>
