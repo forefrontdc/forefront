@@ -8,7 +8,7 @@
         </div>
         <div class="Hero-colorpicker">
             <a href="#" class="ga-color-picker" id="colorpicker">
-                {% include 'partials/svg/pumpkin.html' %}
+                {% include 'partials/svg/color-picker.html' %}
             </a>
         </div>
         <div class="Corner-wrapper">
@@ -42,7 +42,7 @@
                         <div class="Corner-inside--small"></div>
                     </div>
 
-                    <p class="FeaturedEvent-label">Upcoming_Event</p>
+                    <p class="FeaturedEvent-label">Previous_Event</p>
 
                     {% for event in events.events %}
                     {% if loop.last %}
