@@ -65,26 +65,10 @@
         </div>
     </section>
 
-    <section class="Section PastEvents">
-        <div class="Grid Grid--withGutter Grid--alignCenter">
-            <div class="Grid-cell u-sm-size12of12 u-md-size10of12 u-lg-size7of12">
-                <div class="u-textCenter">
-                    <h2 class="u-light">Fore_Front Follows The 3 C’s</h2>
-
-                    {% for a in about.about %}
-                        <div class="Accordion">
-                          <input id="Accordion-{{a.slug}}" type="checkbox" name="tabs">
-                          <label for="Accordion-{{a.slug}}">{{ a.name }}</label>
-                          <div class="Accordion-content">
-                            {% if a.date and a.location %}
-                            <p>{{ a.date }} | @{{ a.location }}</p>
-                            {% endif %}
-                            <p>{{ a.description }}</p>
-                          </div>
-                        </div>
-                    {% endfor %}
-                </div>
-            </div>
+    <section class="Section Section--secondary">
+        <div class="u-textCenter">
+            <p class="title">Interested in sharing your knowledge?</p>
+            <a href="https://goo.gl/forms/dZTbSrN3zkOWHe0x2" class="Link--primary Link--primary-light" target="_blank">Submit a Talk!</a>
         </div>
     </section>
 
@@ -95,7 +79,7 @@
                     <div class="Grid-cell u-sm-size12of12 u-md-size5of12">
                         <h2>What is Fore_Front?</h2>
                         <p class="Section-paragraph">
-                            Fore_Front is a morning event series for DC’s Front End Developer community. Hear how the best developers are unleashing the power of new web technologies, tools, and best practices to push the boundaries of our practice. Come for the code, stay for the community.
+                            Fore_Front is an event series for DC’s Front End Developer community. Hear how the best developers are unleashing the power of new web technologies, tools, and best practices to push the boundaries of our practice. Come for the code, stay for the community.
                         </p>
                     </div>
                     <div class="Grid-cell u-md-size1of12"></div>
@@ -112,10 +96,23 @@
         </div>
     </section>
 
-    <section class="Section Section--secondary">
-        <div class="u-textCenter">
-            <p class="title">Interested in sharing your knowledge?</p>
-            <a href="https://goo.gl/forms/dZTbSrN3zkOWHe0x2" class="Link--primary Link--primary-light" target="_blank">Submit a Talk!</a>
+    <section class="Section PastEvents">
+        <div class="Grid Grid--withGutter Grid--alignCenter">
+            <div class="Grid-cell u-sm-size12of12 u-md-size10of12 u-lg-size7of12">
+                <div class="u-textCenter">
+                    <h2 class="u-light">Previous Events</h2>
+
+                    {% for a in events.events %}
+                        <div class="Accordion">
+                          <input id="Accordion-{{a.slug}}" type="checkbox" name="tabs">
+                          <label for="Accordion-{{a.slug}}">{{ a.name }}</label>
+                          <div class="Accordion-content">
+                            {{ a.recap | safe }}
+                          </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
         </div>
     </section>
 
