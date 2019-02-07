@@ -10,6 +10,10 @@
     margin-bottom: 0;
 }
 
+.u-pb0 {
+    padding-bottom: 0;
+}
+
 .u-height-auto {
     height: auto !important;
 }

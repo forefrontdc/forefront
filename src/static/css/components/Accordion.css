@@ -44,7 +44,7 @@ label {
     }
 
     @media(--md-viewport) {
-        width: 80%;
+        width: 92%;
     }
 }
 
@@ -58,7 +58,7 @@ label {
 
 /* :checked */
 input:checked ~ .Accordion-content {
-    max-height: 12rem;
+    max-height: 20rem;
 }
 
 /* Icon */

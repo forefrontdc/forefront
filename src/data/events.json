@@ -2,11 +2,12 @@
 "events": [
     {
         "slug": "web-accessibility",
-        "name": "Everyone's Internet:<br>Web Accessibility Panel",
+        "name": "Everyone's Internet: Web Accessibility Panel",
         "date": "APRIL 27TH, 2018 9:00 AM - 11:00 AM",
         "location": "ISL (iStrategyLabs)",
         "speaker": "You!",
         "description": "<p>Ensuring web accessibility is a critical responsibility we all share.</p><p>The Question: How do we convince our bosses and clients to invest in accessibility? How do we work together across teams to build a usable experience for everyone?</p><p>What We Discussed: In Fore_Front's kickoff event, we heard from a panel of industry experts on web accessibility best practices, the role of design and development, cultural transformations and impacts on accessibility, and much more!</p>",
+        "recap": "<p>In Fore_Front's kickoff event, we heard from a panel of industry experts on web accessibility best practices, the role of design and development, cultural transformations and impacts on accessibility, and much more!</p>",
         "time": "9:00 AM - 11:00 AM.",
         "photo": "",
         "link": "/event.html",
@@ -47,6 +48,7 @@
         "location": "ISL (iStrategyLabs)",
         "speaker": "You!",
         "description": "<p>When a website or app just works, the user experience can feel like a native app – intuitive, seamless, and usable. When it doesn&rsquo;t work, the experience becomes, well, the opposite – it&rsquo;s slow, inaccessible, and frustrating. If it&rsquo;s really bad, users might run the other direction and never return.</p><p>In Fore_Front&rsquo;s second event, featured speaker Eli Fitch will show us how to leverage perceived performance – that is, how the user thinks the site is performing – to make better web experiences. Using the backdrop of human psychology and innate perceptions of time, Eli will unveil tips and tricks to manage perceived loading time (and more).</p><p>Before Eli takes the stage, we&rsquo;ll hear four lightning talks from devs in the community on some exciting topics.<br><ul><li>&ldquo;Flocc: An Agent-Based Modeling Framework in JavaScript&rdquo; by Scott Donaldson</li><li>&ldquo;Understanding Javascript Selectors With and Without Reselect&rdquo; by Pearl McPhee</li><li>&ldquo;Automated Accessibility Testing&rdquo; by Alex Barbato</li><li>&ldquo;How to Say Anything&rdquo; by Valerie Woolard Srinivasan</li></ul></p><p>All of this, plus bagels and coffee. You won&rsquo;t want to miss it.</p>",
+        "recap": "<p>In Fore_Front&rsquo;s second event, featured speaker Eli Fitch showed us how to leverage perceived performance – that is, how the user thinks the site is performing – to make better web experiences. Using the backdrop of human psychology and innate perceptions of time, Eli unveiled tips and tricks to manage perceived loading time (and more). We also featured four lightning talks from devs in the community on some exciting topics.</p>",
         "time": "9:00 AM - 11:00 AM.",
         "photo": "",
         "link": "/event.html",
@@ -69,6 +71,7 @@
         "location": "ISL (iStrategyLabs)",
         "speaker": "You!",
         "description": "<p>When it comes to front-end, there's plenty to be afraid of – validation states, forgotten semi-colons, missing media queries, oh my! In Fore_Front’s third event, we'll explore tricks and treatments to address problems that all front-enders share.</p><p>There will be coffee, candy, and a costume contest.</p>",
+        "recap": "<p>In Fore_Front’s third (Halloween-themed) event, we explored tricks and treatments to address problems that all front-enders share. Talks included: &#8220;Fear and Loathing in Front End&#8221;, &#8220;Bugs That Git Bisect In The Night&#8221;, &#8220;Navigating the Scary World of JavaScript in 2018&#8221;, and &#8220;Thinking Functionally&#8221;.</p>",
         "time": "9:00 AM - 11:00 AM.",
         "photo": "",
         "link": "/event.html",
@@ -105,6 +108,35 @@
                 "photo": "/static/img/speakers/josh_strupp.jpg",
                 "bio": "Marketing director. Entrepreneur. Hobbyist designer and developer. Hot sauce snob. Josh Strupp is a true Internet native, starting his career in the “digital dark arts” with his own digital media company. For years, he managed hundreds of writers and social strategists, oversaw product design and branding, and managed national and local marketing efforts. At ISL, Josh manages integrated marketing efforts, supports business development initiatives, and works closely with the engineering team to build emerging technology products.",
                 "website": ""
+            }
+        ]
+    },
+    {
+        "slug": "fore-front-after-dark",
+        "name": "Fore_Front::after .dark",
+        "date": "FEBRUARY 21, 2019, 6:00 PM - 8:00 PM",
+        "location": "ISL (iStrategyLabs)",
+        "speaker": "You!",
+        "description": "<p>On February 21st, the stars will align, the DOM will load, and we'll do something more miraculous than finding the universal solution to vertical alignment: Fore_Front::after .dark</p><p>We're hosting our first ever evening event, kicking off at 6pm at ISL. And a new time means new speakers and a new format. Yep, we're parallel tracking.</p><p>For the Fore_Fronters that love getting in the weeds, we've got POLITICO front-ender Jack Koppa talking shared component libraries. At the same time, we've got Beka Wueste, VP of Digital Strategy at political advocacy firm GMMB, coming to talk empathy in design.</p><p>We'll serve pizza and drinks (both alcoholic and non), and give you ample time to mingle, discuss, and connect with other DC area front-end fanatics.</p>",
+        "recap": "",
+        "time": "6:00 PM - 8:00 PM",
+        "photo": "",
+        "link": "/event.html",
+        "link_text": "Learn More",
+        "ticket_link": "https://www.eventbrite.com/e/fore-frontafter-dark-an-evening-for-dcs-front-enders-tickets-56116030558",
+        "ticket_text": "",
+        "speakers": [
+            {
+                "name": "Jack Koppa",
+                "photo": "/static/img/speakers/jack_koppa.jpg",
+                "bio": "Jack Koppa is a front-end developer at POLITICO, working on modern Vue.js apps. He strives to write clean, understandable apps, while fostering a collaborative atmosphere for the front-end team to learn from, share, and reuse code across projects. With 5 years of web development experience, Jack has a deep background in the HTML & CSS that make the web go round, and a passion for the frameworks making modern web development so enjoyable and exciting. Particularly experienced with Vue and Angular, as well as simple React projects, Jack loves to discover how today's frameworks can make life better for individual developers, for teams, and for companies. Invested in open source & open science, Jack has given presentations on his work with OpenAQ, an air-quality monitoring non-profit, in DC, Milwaukee, and Shanghai. This includes cityAQ, a Progressive Web App he created, backed by OpenAQ data. As a co-organizer of Vue DC, and co-host of the recent DCJS Playdays, Jack loves contributing to, and learning from, the DC tech community. Backpacking, climbing, board games, clean tech news, and ultimate frisbee fill his free time, along with admiring much funnier developers on Twitter.",
+                "website": "/static/img/speakers/jack_koppa.jpg"
+            },
+            {
+                "name": "Beka Wueste",
+                "photo": "/static/img/speakers/beka_wueste.jpg",
+                "bio": "Beka has led digital strategy work for clients including the Robert Wood Johnson Foundation, the American Society of Civil Engineers, the American Beverage Association, Fiat Chrysler Automobiles, and the Niger Delta Partnership Initiative. Her areas of expertise include content strategy, content marketing, and user experience. Beka has managed digital teams that include front end developers, UX designers, content strategists, social media strategists, digital project managers, and more. At the core of Beka’s work is an empathy-driven approach, working with clients to fully understand their needs, identify their goals, and provide user-centered solutions.",
+                "website": "/static/img/speakers/beka_wueste.jpg"
             }
         ]
     }
