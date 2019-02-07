@@ -25,7 +25,7 @@ const colorList = [
   },
   {
     color1: '#FFFFFF',
-    color2: '#343434'
+    color2: '#9859eb'
   }
 ]
 
@@ -49,7 +49,16 @@ window.changeColor = changeColor;
 document.addEventListener('DOMContentLoaded', function(e) {
   const btn = document.getElementById('colorpicker');
   btn.addEventListener('click', changeColor);
+
+  const subscribeBtn = document.getElementById("subscribeBtn");
+  subscribeBtn.addEventListener('click', function (e){
+    window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"5fdd9325b04f428db1b066d29","lid":"e0e4812857","uniqueMethods":true}) })
+    document.cookie = 'MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+    document.cookie = "MCPopupSubscribed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
+  });
+
 });
+
 
 console.log('Interested in speaking at our next event? Email hello@4front.io for details (:');
 

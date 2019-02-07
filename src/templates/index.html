@@ -42,7 +42,7 @@
                         <div class="Corner-inside--small"></div>
                     </div>
 
-                    <p class="FeaturedEvent-label">Previous_Event</p>
+                    <p class="FeaturedEvent-label">Next_Event</p>
 
                     {% for event in events.events %}
                     {% if loop.last %}
@@ -62,6 +62,13 @@
                     <div class="Dots"></div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="Section Section--secondary u-pb0">
+        <div class="u-textCenter">
+            <p class="title">Interested in getting our emails?</p>
+            <button class="Link--primary Link--primary-light" id="subscribeBtn">Join mailing list!</button>
         </div>
     </section>
 
@@ -103,6 +110,7 @@
                     <h2 class="u-light">Previous Events</h2>
 
                     {% for a in events.events %}
+                        {% if not loop.last %}
                         <div class="Accordion">
                           <input id="Accordion-{{a.slug}}" type="checkbox" name="tabs">
                           <label for="Accordion-{{a.slug}}">{{ a.name }}</label>
@@ -110,6 +118,7 @@
                             {{ a.recap | safe }}
                           </div>
                         </div>
+                        {% endif %}
                     {% endfor %}
                 </div>
             </div>
@@ -137,6 +146,7 @@
         </div>
     </footer>
 </main>
+<!-- <script type="text/javascript"></script> -->
 {% endblock %}
 
 {% block javascripts %}

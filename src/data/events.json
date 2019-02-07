@@ -110,6 +110,35 @@
                 "website": ""
             }
         ]
+    },
+    {
+        "slug": "fore-front-after-dark",
+        "name": "Fore_Front::after .dark",
+        "date": "FEBRUARY 21, 2019, 6:00 PM - 8:00 PM",
+        "location": "ISL (iStrategyLabs)",
+        "speaker": "You!",
+        "description": "<p>On February 21st, the stars will align, the DOM will load, and we'll do something more miraculous than finding the universal solution to vertical alignment: Fore_Front::after .dark</p><p>We're hosting our first ever evening event, kicking off at 6pm at ISL. And a new time means new speakers and a new format. Yep, we're parallel tracking.</p><p>For the Fore_Fronters that love getting in the weeds, we've got POLITICO front-ender Jack Koppa talking shared component libraries. At the same time, we've got Beka Wueste, VP of Digital Strategy at political advocacy firm GMMB, coming to talk empathy in design.</p><p>We'll serve pizza and drinks (both alcoholic and non), and give you ample time to mingle, discuss, and connect with other DC area front-end fanatics.</p>",
+        "recap": "",
+        "time": "6:00 PM - 8:00 PM",
+        "photo": "",
+        "link": "/event.html",
+        "link_text": "Learn More",
+        "ticket_link": "https://www.eventbrite.com/e/fore-frontafter-dark-an-evening-for-dcs-front-enders-tickets-56116030558",
+        "ticket_text": "",
+        "speakers": [
+            {
+                "name": "Jack Koppa",
+                "photo": "/static/img/speakers/jack_koppa.jpg",
+                "bio": "Jack Koppa is a front-end developer at POLITICO, working on modern Vue.js apps. He strives to write clean, understandable apps, while fostering a collaborative atmosphere for the front-end team to learn from, share, and reuse code across projects. With 5 years of web development experience, Jack has a deep background in the HTML & CSS that make the web go round, and a passion for the frameworks making modern web development so enjoyable and exciting. Particularly experienced with Vue and Angular, as well as simple React projects, Jack loves to discover how today's frameworks can make life better for individual developers, for teams, and for companies. Invested in open source & open science, Jack has given presentations on his work with OpenAQ, an air-quality monitoring non-profit, in DC, Milwaukee, and Shanghai. This includes cityAQ, a Progressive Web App he created, backed by OpenAQ data. As a co-organizer of Vue DC, and co-host of the recent DCJS Playdays, Jack loves contributing to, and learning from, the DC tech community. Backpacking, climbing, board games, clean tech news, and ultimate frisbee fill his free time, along with admiring much funnier developers on Twitter.",
+                "website": "/static/img/speakers/jack_koppa.jpg"
+            },
+            {
+                "name": "Beka Wueste",
+                "photo": "/static/img/speakers/beka_wueste.jpg",
+                "bio": "Beka has led digital strategy work for clients including the Robert Wood Johnson Foundation, the American Society of Civil Engineers, the American Beverage Association, Fiat Chrysler Automobiles, and the Niger Delta Partnership Initiative. Her areas of expertise include content strategy, content marketing, and user experience. Beka has managed digital teams that include front end developers, UX designers, content strategists, social media strategists, digital project managers, and more. At the core of Beka’s work is an empathy-driven approach, working with clients to fully understand their needs, identify their goals, and provide user-centered solutions.",
+                "website": "/static/img/speakers/beka_wueste.jpg"
+            }
+        ]
     }
   ]
 }
