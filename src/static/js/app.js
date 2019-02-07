@@ -25,7 +25,7 @@ const colorList = [
   },
   {
     color1: '#FFFFFF',
-    color2: '#9859eb'
+    color2: '#343434'
   }
 ]
 
