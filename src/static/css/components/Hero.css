@@ -48,15 +48,15 @@
     z-index: 1000;
 
     @media(--md-viewport) {
-        right: 12px;
+        right: 33px;
     }
 
     svg {
-        width: 3rem;
+        width: 1.5rem;
         fill: var(--primary-color);
 
         @media(--md-viewport) {
-            width: 4rem;
+            width: 1.5rem;
         }
     }
 }

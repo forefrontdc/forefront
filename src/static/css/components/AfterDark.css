@@ -1,0 +1,35 @@
+/*   Fore_Front::after .dark   */
+
+.stars,
+.twinkling {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border: 3px solid var(--primary-color);
+}
+
+.stars {
+    background: #000 url(../img/stars.png) repeat top center;
+    z-index: 0;
+}
+
+.twinkling {
+    background: transparent url(../img/twinkling.png) repeat top center;
+    z-index: 1;
+    animation: twinkle 200s linear infinite;
+}
+
+.z-index {
+    z-index: 100;
+}
+
+@keyframes twinkle {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -10000px 5000px;
+    }
+}
