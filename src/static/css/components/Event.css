@@ -12,16 +12,16 @@
         }
     }
 
-    @media(--md-viewport) {
+    @media (--md-viewport) {
         margin-top: calc(-100vw / 8);
     }
-    @media(--lg-viewport) {
+    @media (--lg-viewport) {
         margin-top: calc(-100vw / 12);
     }
 }
 
 .Event-content {
-    background-color: var(--secondary-color);
+    background-color: black;
     padding: 3rem 1rem;
     font-size: 14px;
     color: #898989;
@@ -29,13 +29,13 @@
     border: 3px solid var(--primary-color);
     display: flex;
 
-    @media(--sm-only-viewport) {
+    @media (--sm-only-viewport) {
         h1 {
             line-height: 2rem;
         }
     }
 
-    @media(--md-viewport) {
+    @media (--md-viewport) {
         padding: 10rem 4rem;
 
         h1 {
@@ -48,7 +48,7 @@
 .Event-register {
     display: flex;
     justify-content: center;
-    @media(--md-viewport) {
+    @media (--md-viewport) {
         justify-content: flex-start;
     }
 }
@@ -64,7 +64,7 @@
             fill: var(--primary-color);
         }
 
-        @media(--sm-only-viewport) {
+        @media (--sm-only-viewport) {
             padding-left: 2rem;
         }
     }
@@ -80,7 +80,7 @@
     letter-spacing: 1px;
     background-color: var(--secondary-color);
 
-    @media(--md-viewport) {
+    @media (--md-viewport) {
         letter-spacing: 6px;
     }
 }
@@ -101,7 +101,7 @@
     .Grid-cell {
         padding: 0;
 
-        @media(--md-viewport) {
+        @media (--md-viewport) {
             &:nth-child(odd) {
                 padding-right: 2rem;
             }

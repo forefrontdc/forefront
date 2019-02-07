@@ -12,6 +12,7 @@
 @import 'components/Coffee-mug';
 @import 'components/Event';
 @import 'components/Image';
+@import 'components/AfterDark';
 
 @import 'utilities/Typography';
 @import 'utilities/Utilities';

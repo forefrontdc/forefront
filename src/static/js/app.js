@@ -1,31 +1,23 @@
 const colorList = [
   {
-    color1: '#FEFFD3',
-    color2: '#E56258'
+    color1: '#F0A8A8',
+    color2: '#1B0F30'
   },
   {
-    color1: '#E56258',
-    color2: '#FEFFD3'
-  },
-  {
-    color1: '#32287E',
-    color2: '#F7F9FF'
-  },
-  {
-    color1: '#F7F9FF',
-    color2: '#32287E'
-  },
-  {
-    color1: '#00ADA2',
-    color2: '#E1E7F2'
-  },
-  {
-    color1: '#343434',
-    color2: '#FFFFFF'
+    color1: '#B3DFFF',
+    color2: '#080C1A'
   },
   {
     color1: '#FFFFFF',
-    color2: '#343434'
+    color2: '#000000'
+  },
+  {
+    color1: '#9a8fef', //current
+    color2: '#1b1647'
+  },
+  {
+    color1: '#CFE6CF',
+    color2: '#162023'
   }
 ]
 
